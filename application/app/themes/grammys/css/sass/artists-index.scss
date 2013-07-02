@@ -1,0 +1,202 @@
+@import "_mixins";
+@import "_artists";
+
+#artists-index {
+    #background {
+        background: #000 url("../img/artists_heading_background.jpg") no-repeat center 52px;
+
+        @include retina {
+            background: #000 url("../img/artists_heading_background_2x.jpg") no-repeat center 52px;
+        }
+    }
+
+    #content {
+
+        .columns {
+            padding: 0;
+        }
+
+        .heading {
+            
+            position: relative;
+            overflow: hidden;
+            height: 298px;
+            margin-bottom: 80px;
+
+            h1 {
+                text-align: center;
+                min-width: 200px;
+                max-width: 400px;
+                width: 40%;
+                margin: 67px auto 0 auto;
+            }
+
+            img {
+                width: 194px;
+            }
+
+            p {
+                color: #aaa;
+                width: 625px;
+                padding: 27px 20px 10px;
+                margin: -29px auto 20px auto;
+                text-align: center;
+                line-height: 1.3em;
+                height: 103px;
+                background: url("../img/artists_amplify_title_background.png") no-repeat center top;
+            }
+
+            .grill.left {
+                position: absolute;
+                top: 115px;
+                left: 0;
+                height: 150px;
+                width: 225px;
+
+                background-image: url("../img/grill_left.png");
+                background-repeat: no-repeat;
+                background-position: 0 -35px;
+
+                @include retina {
+                    background-image: url("../img/grill_left_2x.png");
+                }
+
+                @include mobile-landscape-and-below {
+                    display: none;
+                }
+
+            }
+
+            .grill.right {
+                position: absolute;
+                top: 115px;
+                right: -15px;
+                height: 150px;
+                width: 225px;
+
+                background-image: url("../img/grill_left.png");
+                background-repeat: no-repeat;
+                background-position: 0 -35px;
+
+                @include retina {
+                    background-image: url("../img/grill_left_2x.png");
+                }
+
+                @include mobile-landscape-and-below {
+                    display: none;
+                }
+
+            }
+
+            #search {
+                height: 38px;
+                padding: 27px 0 0;
+                margin: 0 0 10px 0;
+
+                .column,
+                .columns {
+                    padding: 0;
+                }
+
+                #keyword {
+                    float: right;
+                    padding: 10px 40px 10px 10px;
+                    margin: 0;
+                    background: url(../img/artists_filter_nav.png) no-repeat -1005px -1px;
+                    color: #999;
+                    border: none;
+                    width: 183px;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                }
+
+                ul { 
+                    list-style: none;
+                    margin: 0 auto;
+                }
+
+                #genre {
+                    width: 184px;
+                    font-size: 14px;
+                    height: 38px;
+                }
+
+                #uniform-genre {                    
+                    @include transition(opacity, .5s, ease);
+                    &:hover {
+                        filter: alpha(opacity = 70); /*IE*/
+                        opacity: 0.7;
+                        @include transition(opacity, .5s, ease);
+                    }
+                }
+
+                #sort_menu {
+                    padding: 0 17px 0 30px;
+
+                    input { float: none; }
+
+                    li {
+                        float: left;
+                        margin: 0 13px 0 0;
+                        background: black;
+                        text-indent: -9999px;
+                        cursor: pointer;
+                        background-image: url(../img/artists_filter_nav.png);
+                        background-repeat: no-repeat;
+                        width: 190px;
+                        height: 38px;
+                        input {
+                            position: absolute;
+                            left: -9999px;
+                        }
+                        
+                        @include transition(opacity, .5s, ease);
+                        &:hover {
+                            filter: alpha(opacity = 70); /*IE*/
+                            opacity: 0.7;
+                            @include transition(opacity, .5s, ease);
+                        }
+                    }
+
+                    li.all-tracks { background-position: -287px -1px; }
+                    li.all-tracks.checked { background-position: -287px -46px; }
+                    li.trending { background-position: -499px -1px; }
+                    li.trending.checked { background-position: -499px -46px; }
+                    li.newest { background-position: -709px -1px; }
+                    li.newest.checked { background-position: -709px -46px; }
+                }
+
+                #sort_tags {
+                    float: none;
+                    clear: both; 
+                    margin: 0 auto 15px auto;
+                    padding: 15px 0 9px 0;
+                    overflow: hidden;
+                    border-bottom: solid 1px white;
+                    border-bottom: solid 1px rgba(255,255,255,.4);
+                    font-size: 24px; 
+                    text-align: center; 
+                    color: white;
+                }
+
+            }
+
+        }
+
+        #ticker {
+            margin-top: 310px;
+        }
+
+        #artists {
+            .loadmore {
+                text-align: center;
+                margin: 30px 0;
+                cursor: pointer;
+            }
+        }
+
+        .noresults {
+            text-align: center;
+        }
+    }
+}

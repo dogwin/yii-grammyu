@@ -1,0 +1,37 @@
+.player .mejs-container {
+  width: 300px;
+  background: none; }
+  .player .mejs-container .mejs-controls {
+    background: none;
+    bottom: auto; }
+    .player .mejs-container .mejs-controls .mejs-playpause-button {
+      width: 58px;
+      height: 60px; }
+      .player .mejs-container .mejs-controls .mejs-playpause-button button {
+        width: 40px;
+        height: 40px;
+        margin: 12px 0px 12px 14px;
+        background: url(../img/player_controls.png);
+        outline-style: none; }
+      .player .mejs-container .mejs-controls .mejs-playpause-button.mejs-play:hover button {
+        background-position: 0 40px; }
+      .player .mejs-container .mejs-controls .mejs-playpause-button.mejs-pause button {
+        background-position: 40px 0px; }
+      .player .mejs-container .mejs-controls .mejs-playpause-button.mejs-pause:hover button {
+        background-position: 40px 40px; }
+    .player .mejs-container .mejs-controls .mejs-time-rail {
+      height: 53px;
+      padding-top: 1px; }
+      .player .mejs-container .mejs-controls .mejs-time-rail .mejs-time-loaded {
+        background: none; }
+      .player .mejs-container .mejs-controls .mejs-time-rail .mejs-time-total {
+        height: 53px;
+        background: none;
+        border-radius: 0;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0; }
+        .player .mejs-container .mejs-controls .mejs-time-rail .mejs-time-total .mejs-time-loaded, .player .mejs-container .mejs-controls .mejs-time-rail .mejs-time-total .mejs-time-current {
+          height: 53px;
+          border-radius: 0;
+          -moz-border-radius: 0;
+          -webkit-border-radius: 0; }

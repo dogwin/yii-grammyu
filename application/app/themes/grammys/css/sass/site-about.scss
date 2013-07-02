@@ -1,0 +1,115 @@
+@import "_mixins";
+@import "_about_steps";
+
+#site-about {
+
+    #background {
+        background: url("../img/about_background.jpg") center 52px no-repeat;
+        @include retina {
+            background: url("../img/about_background_2x.jpg") center 52px no-repeat;
+        }
+    }
+
+    #content {
+        position: relative;
+
+        .heading {
+            height: 244px;
+            text-align: center;
+
+            .title {
+                padding: 60px 0 0;
+
+                img {
+                    height: 72px;
+                }
+            }
+
+            .text {
+                width:650px;
+                font-size: 14px;
+                margin: -32px auto 0;
+                line-height: 1.3em;
+                background:url("../img/about_txt_background.png") no-repeat;
+                padding: 41px 20px 21px;
+                color: #aaa;
+                height: 104px;
+            }
+        }
+        
+         .update {
+            height: 100px;
+            margin-top: 170px;
+            margin-bottom: 70px;
+
+            .text {
+            	text-align: center;
+                font-size: 20px;
+                line-height: 20px;
+                color: #aaa;
+            }
+        }
+        
+
+        .steps-points-wrap {
+
+            .get-heard {
+                width: 825px;
+                background: url("../img/about_get_heard.png") no-repeat;
+                padding: 92px 20px 25px;
+                margin: 0 auto 40px;
+                text-align: center;
+                color: #999;
+            }
+
+            .points {
+                padding:0 80px 0 80px;
+                background: url("../img/about_getting_amplified.png") 0 120px no-repeat;
+
+                @include retina {
+                    background: url("../img/about_getting_amplified_2x.png") 0 120px no-repeat;
+                }
+
+                text-align: center;
+                width:804px;
+                height:340px;
+                font-size: 16px;
+                margin: 0 auto;
+                line-height: 1.3em;
+            }
+
+            .getamped {
+                text-align: center;
+                margin-top: 0px;
+                a {
+                    cursor: pointer;
+                    @include transition(opacity, .5s, ease);
+                    &:hover {
+                        filter: alpha(opacity = 70); /*IE*/
+                        opacity: 0.7;
+                        @include transition(opacity, .5s, ease);
+                    }
+                }
+
+                img {
+                    width: 221px;
+                }
+            }
+
+            .getampedHotspot {
+                margin: 0 auto;
+                width:496px;
+                height:378px;
+                background: url("../img/about_get_amplified_rollover.png");
+
+                @include opacity(0);
+
+                @include retina {
+                    background: url("../img/about_get_amplified_rollover.png");
+                }
+
+            }
+        }
+    }
+}
+

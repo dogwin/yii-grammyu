@@ -1,0 +1,475 @@
+@import "_fonts";
+@import "_mixins";
+
+
+
+#users-view {
+
+	#background{
+		min-width: 1024px;
+		background-position: center bottom;
+		background-image: url('../img/user_background_body.jpg');
+		background-color: #000;
+	}
+	
+    .heading{
+        .headerTall {
+        	height: 400px;
+            text-align: center;
+            padding: 70px 0 0 0;
+        }
+        
+        .headerShort {
+        	height: 200px;
+            text-align: center;
+            padding: 50px 0 0 0;
+        }
+
+        .separator{
+            border-bottom: 1px solid #fff;
+            margin: 11px auto 12px auto;
+        }
+
+        .buttons {
+            text-align: center;
+            img{
+                margin: 20px 14px 10px;
+            }
+
+            a {
+                text-decoration: none;
+            }
+        }
+
+        .description{
+            font-size: 16px;
+            color: #fff;
+            width: 650px;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .row {
+            text-align: center;
+            margin: 0 0 100px;
+
+            label{
+                display: inline;
+                color: #FFF;
+                width: 100px;
+            }
+            
+
+            .noentry {
+                display: inline;
+                width: 200px;
+                background-image: url("../img/input_background.png");
+                border: solid 1px #333;
+                resize: none;
+                color: #ddd;
+                @include rounded-all(5px);
+            }
+
+            .copy {
+                vertical-align: middle;
+                cursor: pointer;
+            }
+
+        }
+
+
+    }
+
+    .pattern {
+        background-image: url('../img/pattern_top_line.jpg');
+        height: 8px;
+    }
+
+	.artistName {
+	
+			margin-top: 80px;
+			height: 50px;
+	
+	 		h1 {
+                font-family: AkzidenzGroteskBE-Cn;
+                font-size: 50px;
+                color: #fff;
+                @include shadowBorder;
+            }
+	}
+
+	.artistNameShort {
+			text-align: center;
+			margin-bottom: 10px;
+			height: 30px;
+	
+	 		h1 {
+	 			margin-top: 0px;
+                font-family: AkzidenzGroteskBE-Cn;
+                font-size: 30px;
+                line-height: 30px;
+                color: #fff;
+                @include shadowBorder;
+            }
+	}
+
+    .artist {
+       
+        padding-bottom: 45px;
+
+        .profile {
+
+            float: left;
+
+            h1 {
+                font-family: AkzidenzGroteskBE-Cn;
+                font-size: 30px;
+                color: #fff;
+                @include shadowBorder;
+            }
+
+            .details {
+      
+                width: 560px;
+                height: 1095px;
+                padding: 28px;
+
+                .profileImage {
+                	margin-left: 2px;
+                    width: 502px;
+                    height: 334px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+                
+ 				.imageOverlay {
+                    width: 508px;
+					position: absolute;
+					left: 42px;
+					top: 61px;
+					height: 343px;
+					background: url("../img/user_profile_image_overlay.png") repeat-x;
+					pointer-events:none;
+                }
+
+                h2 {
+                    font-family: AkzidenzGroteskBE-Cn;
+                    font-size: 32px;
+                    line-height: 20px;
+                    text-align: center;
+                    color: #fff;
+                    @include shadowBorder;
+                }
+                
+                 .player_container {
+                 	margin-left: 10px;
+                 	margin-top: 25px;
+                 	height: 95px;
+					width: 490px;
+					overflow:hidden;
+                 }
+                
+                .player {
+                
+                	
+                	padding:0px;
+					height: 100px;
+					width: 490px;
+                    
+                    .mejs-container {
+					 	height: 100px;
+						width: 390px;
+						background: none;
+					
+						
+					.mejs-inner, .mejs-mediaelement, .mejs-layers, .mejs-controls{
+						width: 490px;
+					}	
+					
+					.mejs-controls {
+						background: none;
+						bottom: auto;
+			
+						.mejs-playpause-button {
+							width: 100px;
+							height: 100px;
+			
+							button {
+								width: 80px;
+								height: 80px;
+								margin: 10px 0px 10px 10px;
+								background: url(../img/player_controls_2x.png);
+								outline-style: none;
+			
+							}
+			
+							&.mejs-play:hover button {
+								background-position: 0 80px;
+							}
+			
+							&.mejs-pause button {
+								background-position: 80px 0px;
+							}
+			
+							&.mejs-pause:hover button {
+								background-position: 80px 80px;
+							}
+			
+						}
+			
+						.mejs-time-rail {
+							height: 100px;
+							padding-top: 1px;
+
+                            .mejs-time-loaded {
+                                background: none;
+                            }
+
+							.mejs-time-total {
+								height: 100px;
+								background: none;
+								@include rounded-all(0);
+								
+								.mejs-time-loaded, .mejs-time-current {
+									height: 100px;
+									background-repeat: none;
+									@include rounded-all(0);                    
+								}
+								
+							}
+						}
+			
+					}
+			
+				}
+
+                }
+
+                .buttons {
+                    margin: 30px auto;
+                    a {
+                        img {
+                            text-decoration:none;
+                        }
+                    }
+
+                    a.facebook img {
+                        margin-right: 43px;
+                    }
+
+                }
+
+                .bio {
+					
+					
+					 width: 475px;
+					 
+                    h2 {
+                        font-family: AkzidenzGroteskBE-Cn;
+                        font-size: 30px;
+                        line-height: 1px;
+                        color: #fff;
+                        @include shadowBorder;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        color: #fff;
+                        letter-spacing: 0.09em;
+                    }
+
+                    min-height: 100px;
+                    max-height: 240px;
+                    overflow: auto;
+                    margin: 20px;
+                }
+                
+            }
+        }
+        
+        
+        
+		.info {
+		
+			ul {
+			width: 375px;
+				li {
+					border: 1px solid #333333;
+					
+					height: 35px;
+					margin: 5px;
+					padding: 3px 0 0 0;
+					list-style: none;
+		
+					img {
+						vertical-align: middle;
+						margin-right: 10px;
+					}
+		
+					a {
+						text-decoration: none;
+						font-size: 14px;
+						color: #fff;
+						letter-spacing: 0.09em;
+		
+					}
+				}
+			}
+		}
+        
+		.badgeLeft {
+			position: absolute; top: 38px; left: 50px;
+			width: 119px;
+			height: 107px;
+			color: #FFF;
+			z-index: 20;
+		}
+		
+		.badgeRight {
+			position: absolute; top: 390px; left: 725px;
+			width: 143px;
+			height: 140px;
+			color: #FFF;
+			z-index: 20;
+		}
+
+        .stats {
+            float: right;
+            width: 395px;
+
+            h2 {
+                font-family: AkzidenzGroteskBE-Cn;
+                font-size: 30px;
+                color: #fff;
+                @include shadowBorder;
+            }
+
+            img{
+                margin: 0 0 0 7px;
+            }
+
+            .boxes {
+				
+				 font-family: AkzidenzGroteskBE-Cn;
+				 
+                .top {
+					
+                    width: 370px;
+                    height: 310px;
+                    text-align: center;
+                    margin-top: 35px;
+                    border: 0px solid #FF0000;
+
+                    .numbers{
+                        text-align: center;
+                        clear: both;
+                    }
+
+                    .countdown{
+                        text-align: center;
+                        clear: both;
+                    }
+
+                    .data {
+                        padding-top: 100px;
+                        font-size: 80px;
+                        line-height: 80px;
+                    }
+
+                    .text {
+                        font-size: 40px;
+                        line-height: 1px;
+                        padding: 20px 0 0 0;
+                        color: #fff;
+                        @include shadowBorder;
+                    }
+                    
+                    .gradient {
+						width: 370px;
+						position: relative;
+						left: 0;
+						top: -100px;
+						height: 200px;
+						background: url("../img/user_count_gradient.png") repeat-x;
+						pointer-events:none;
+					}
+                    
+                }
+                .bottom {
+					
+                    width: 370px;
+                    height: 310px;
+                    text-align: center;
+                    margin-top: 50px;
+                    margin-bottom: 20px;
+                    border: 0px solid #FF0000;
+
+                    .numbers{
+                        text-align: center;
+                        clear: both;
+                    }
+
+                    .countdown{
+                        text-align: center;
+                        clear: both;
+                    }
+
+                    .data {
+                     	font-size: 80px;
+                        line-height: 80px;
+                        padding-top: 100px;
+                    }
+
+
+                    .text {
+                        font-family: AkzidenzGroteskBE-Cn;
+                        font-size: 30px;
+                        line-height: 1px;
+                        padding: 20px 0 0 0;
+                        color: #fff;
+                        @include shadowBorder;
+                    }
+                    
+                    .gradient {
+						width: 370px;
+						position: relative;
+						left: 0;
+						top: -100px;
+						height: 200px;
+						background: url("../img/user_count_gradient.png") repeat-x;
+						pointer-events:none;
+					}
+					
+        
+				}
+            }
+        }
+
+
+
+
+
+    }
+}
+
+html.lt-ie9{
+	#users-view{
+		.artist{
+			.stats{
+				.boxes{
+					.bottom, .top{
+						.data{
+							font-family: Arial;
+							font-size: 60px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+	
+					

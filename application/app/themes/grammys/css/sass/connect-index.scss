@@ -1,0 +1,88 @@
+@import "_mixins";
+
+#connect-index {
+
+    #background {
+        background-image: url("../img/connect_background.jpg");
+    }
+
+    #content {
+        padding-bottom: 20px;
+        height: 870px;
+
+
+        @include retina {
+            background: #000 url("../img/connect_background_2x.jpg");
+        }
+
+        .separator {
+            margin: 11px auto 12px auto;
+        }
+
+        .signin {
+            text-align: center;
+            margin: 30px 0 0 0;
+
+            a {
+                text-align: center;
+                display: block;
+                width: 280px;
+                height: 56px;
+                background: url('../img/connect_signin.png') no-repeat;
+                text-indent: -99999px;
+                margin: 0 auto 14px;
+                
+                @include box-shadow(5px, 7px, 18px, #000000);
+                @include transition(opacity, .5s, ease);
+                &:hover {
+                    filter: alpha(opacity = 70); /*IE*/
+                    opacity: 0.7;
+                    @include transition(opacity, .5s, ease);
+                }
+            }
+        }
+
+        .description {
+            font-size: 20px;
+            color: #aaa;
+            text-align: center;
+            margin: 215px auto 55px;
+            line-height: 1.2em;
+        }
+
+        .info {
+            margin: 0 auto;
+            text-align: center;
+            text-decoration: underline;
+            a {
+                font-size: 10.5px;
+                color: #737373;
+                text-align: center;
+                font-family: arial;
+                
+            }
+        }
+
+    }
+}
+
+#connect-index.phone {
+
+    #content {
+        background: #000 url(../img/background_mobile.jpg) no-repeat center top;
+        height: auto;
+
+        .header {
+            margin: 80px auto 0;
+            background: url(../img/connect_heading_mobile.png) no-repeat center top;
+            width: 320px;
+            padding: 75px 25px 0;
+            height: 170px;
+        }
+
+        .signin {
+            margin-top: 60px;
+            margin-left: 8px;
+        }
+    }
+}

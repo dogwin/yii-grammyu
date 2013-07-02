@@ -1,0 +1,167 @@
+
+.artist {
+
+    @include tablet-portrait-and-below {
+         width: 50% !important;
+    }
+
+    .wrapper {
+        margin: 0 auto;
+        margin-bottom: 30px;
+        padding: 0;
+        width: 300px;
+        height: 465px;
+        border: solid 1px #222222;
+        position: relative;
+        text-align: center;
+
+        @include box-shadow(3px, 24px, 50px, #000000);
+        
+        background: url('../img/artistCard.jpg') no-repeat center top;
+        
+    }
+
+    .image  {
+      	
+        height: 200px;
+        overflow: hidden;
+
+        img {
+        	
+            width: 300px;
+            height: 200px;
+        }
+    }
+
+    .username {
+        position: absolute; top: 250px; left: 0px;
+        width: 298px;
+        height: 30px;
+
+        h2 {
+            color: #FFF;
+            margin: 0px;
+            text-align: center;
+            font-size: 14px;
+            letter-spacing: 1px;
+            line-height: 12px;
+            font-family: AkzidenzGroteskBE-Cn;
+        }
+    }
+
+    .track {
+    	position: absolute; top: 270px; left: 0px;
+   		width: 298px;
+        height: 30px;
+
+        .title {
+            color: #fff;
+            text-align: center;
+            font-size: 18px;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+            line-height: 18px;
+            font-family: AkzidenzGroteskBE-Cn;
+            font-style: normal;
+            white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+        }
+    }
+
+	.genre {
+		position: absolute; top: 433px; left: 0px;
+		width: 298px;
+        height: 30px;
+		color: #FFF;
+		text-align: center;
+		font-size: 11px;
+		line-height: 0;
+		font-family: HelveticaNeueLTStd-Roman, Helvetica, Arial;
+		font-style: normal;
+    }
+    
+    .badgeLeft {
+		position: absolute; top: -26px; left: 0px;
+		width: 119px;
+        height: 107px;
+		color: #FFF;
+		z-index: 20;
+    }
+    
+    .badgeRight {
+		position: absolute; top: -31px; left: 160px;
+		width: 143px;
+        height: 140px;
+		color: #FFF;
+		z-index: 20;
+    }
+
+    .player {
+    	position: absolute; top: 295px; left: 0px;
+        height: 59px;
+    }
+
+    .points {
+        margin: 10px 0 0 0;
+        color: #FFF;
+        text-align: center;
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            text-align: center;
+
+            li {
+                display: inline;
+                font-size: 14px;
+                color: #a7a7a7;
+                font-family: HelveticaNeueLTStd-Roman, Helvetica, Arial;
+                font-style: normal;
+
+                .count {
+                    font-size: 14px;
+                    color: #FFF;
+                }
+            }
+        }
+    }
+
+    .share {
+        position: absolute; top: 380px; left: 0px;
+        width:298px;
+        
+
+        img {
+            margin-bottom: 5px;
+        }
+
+        a {
+            @include transition(opacity, .5s, ease);
+            &:hover {
+                filter: alpha(opacity = 60);
+                opacity: 0.6;
+                @include transition(opacity, .5s, ease);
+            }
+        }
+    }
+
+    .location {
+        position: absolute; top: 440px; left: 0px;
+        width: 298px;
+        height: 18px;
+
+        img {
+            vertical-align: middle;
+        }
+
+        .city {
+            margin: 0 0 0 4px;
+            font-size: 11px;
+            color: #b5b5b5;
+            font-family: HelveticaNeueLTStd-Roman, Helvetica, Arial;
+            font-style: normal;
+        }
+    }
+
+}

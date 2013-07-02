@@ -1,0 +1,4 @@
+$(function(){
+    initializePlayers();
+    initializeShareLinks();
+});

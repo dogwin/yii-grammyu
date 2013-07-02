@@ -1,0 +1,73 @@
+.curator {
+  background-repeat: no-repeat;
+  background-position: center 50px;
+  height: 380px; }
+  .curator .tile {
+    margin: 0 auto;
+    width: 320px;
+    height: 400px;
+    background-position: center top;
+    background-repeat: no-repeat; }
+    .curator .tile .title {
+      text-align: center;
+      padding-top: 310px; }
+    .curator .tile .reach {
+      margin: 5px auto 0;
+      text-align: center;
+      height: 44px;
+      background: url(../img/curators_reach.png) no-repeat top center; }
+      .curator .tile .reach .count {
+        font-family: AkzidenzGroteskBE-LightCn, "Helvetica Neue", helvetica, Arial, Sans-Serif;
+        text-align: center;
+        color: #FFF;
+        font-size: 20px;
+        padding-top: 23px;
+        letter-spacing: 1px; }
+
+#site-curators #background {
+  background: url("../img/curators_background.jpg") no-repeat center 0px; }
+#site-curators #content {
+  min-height: 1200px; }
+#site-curators .heading {
+  height: 300px;
+  text-align: center; }
+  #site-curators .heading .title {
+    padding: 57px 0 0; }
+  #site-curators .heading .text {
+    margin: 0px auto;
+    margin-top: -4px;
+    width: 450px;
+    color: #aaa;
+    font-size: 14px;
+    line-height: 14px;
+    font-style: normal; }
+#site-curators .totalreach {
+  margin: 74px auto 0px;
+  color: #999;
+  height: 42px;
+  position: relative;
+  font-family: "AkzidenzGroteskBE-Cn", "Helvetica Neue", helvetica, Arial, Sans-Serif; }
+  #site-curators .totalreach div {
+    position: absolute;
+    top: 14px; }
+  #site-curators .totalreach .socialreachtitle {
+    left: 180px;
+    text-align: right;
+    width: 200px;
+    font-size: 20px; }
+  #site-curators .totalreach .numbers {
+    left: 400px;
+    text-align: center;
+    top: 15px;
+    font-size: 30px;
+    width: 230px;
+    color: #ddd;
+    letter-spacing: 1px; }
+  #site-curators .totalreach .date {
+    left: 650px;
+    text-align: left;
+    width: 200px;
+    font-size: 20px;
+    text-transform: uppercase; }
+#site-curators .snoop-lion {
+  width: 100%; }

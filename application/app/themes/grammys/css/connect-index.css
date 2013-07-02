@@ -1,0 +1,67 @@
+#connect-index #background {
+  background-image: url("../img/connect_background.jpg"); }
+#connect-index #content {
+  padding-bottom: 20px;
+  height: 870px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+    #connect-index #content {
+      background: black url("../img/connect_background_2x.jpg"); } }
+  #connect-index #content .separator {
+    margin: 11px auto 12px auto; }
+  #connect-index #content .signin {
+    text-align: center;
+    margin: 30px 0 0 0; }
+    #connect-index #content .signin a {
+      text-align: center;
+      display: block;
+      width: 280px;
+      height: 56px;
+      background: url("../img/connect_signin.png") no-repeat;
+      text-indent: -99999px;
+      margin: 0 auto 14px;
+      -webkit-box-shadow: 5px 7px 18px black;
+      -moz-box-shadow: 5px 7px 18px black;
+      -ms-box-shadow: 5px 7px 18px black;
+      box-shadow: 5px 7px 18px black;
+      -webkit-transition: opacity 0.5s ease;
+      -moz-transition: opacity 0.5s ease;
+      -o-transition: opacity 0.5s ease;
+      -ie-transition: opacity 0.5s ease;
+      transition: opacity 0.5s ease; }
+      #connect-index #content .signin a:hover {
+        filter: alpha(opacity=70);
+        /*IE*/
+        opacity: 0.7;
+        -webkit-transition: opacity 0.5s ease;
+        -moz-transition: opacity 0.5s ease;
+        -o-transition: opacity 0.5s ease;
+        -ie-transition: opacity 0.5s ease;
+        transition: opacity 0.5s ease; }
+  #connect-index #content .description {
+    font-size: 20px;
+    color: #aaa;
+    text-align: center;
+    margin: 215px auto 55px;
+    line-height: 1.2em; }
+  #connect-index #content .info {
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: underline; }
+    #connect-index #content .info a {
+      font-size: 10.5px;
+      color: #737373;
+      text-align: center;
+      font-family: arial; }
+
+#connect-index.phone #content {
+  background: black url(../img/background_mobile.jpg) no-repeat center top;
+  height: auto; }
+  #connect-index.phone #content .header {
+    margin: 80px auto 0;
+    background: url(../img/connect_heading_mobile.png) no-repeat center top;
+    width: 320px;
+    padding: 75px 25px 0;
+    height: 170px; }
+  #connect-index.phone #content .signin {
+    margin-top: 60px;
+    margin-left: 8px; }

@@ -1,0 +1,470 @@
+@import "_mixins";
+@import "_artists";
+
+#users-update {
+
+    #background {
+        background: url("../img/setup_background.jpg") center 52px no-repeat;
+        @include retina {
+            background: url("../img/setup_background_2x.jpg") center 52px no-repeat;
+        }
+    }
+
+    #content {
+        min-height: 1988px;
+
+        .introduction {
+            position: relative;
+            height: 245px;
+
+            h1 {
+                text-align: center;
+                min-width: 200px;
+                max-width: 400px;
+                width: 40%;
+                margin: 70px auto 10px;
+            }
+
+            .description {
+                width: 650px;
+                text-align: center;
+                font-size: 14px;
+                margin: -32px auto 0;
+                background:url("../img/about_txt_background.png") center top no-repeat;
+                padding: 36px 25px 13px;
+
+                p {
+                    line-height: 1.3em;
+                }
+            }
+        }
+
+        .form {
+            position: relative;
+            height: 1286px;
+
+            .section {
+                position: absolute;
+
+                .step {
+                    float: left;
+
+                    img {
+                        height: 47px;
+                    }
+                }
+
+                .title {
+                    height: 26px;
+                    img {
+                        height: 16px;
+                        margin: 12px 0 3px 10px;
+                    }
+                }
+
+                .description {
+                    color: #999;
+                    margin: 8px 0 10px 50px;
+                }
+
+                .controls {
+                    small.error {
+                        display: none;
+                    }
+
+                    .soundcloud,
+                    .facebook,
+                    .twitter {
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+
+            .tracks {
+                top: 49px;
+                left: 22px;
+                width: 520px;
+                height: 330px;
+                color: #ddd;
+
+                .warning {
+                    margin: 15px 10px 10px;
+                    padding: 10px;
+                    background: #AB9D65;
+                    border: solid 1px #615421;
+                    @include rounded-all();
+                    font-size: 16px;
+                    line-height: 1.1em;
+                    text-align: center;
+                }
+
+                .warning.notracks {
+                    background: #913C3C;
+                    border: solid 1px #612121;
+                    width: 80%;
+                    margin: 0 auto;
+                    margin-top: 160px;
+                }
+
+                .controls {
+                    overflow: hidden;
+                    width: 520px;
+                    height: 426px;
+                    background: url("../img/setup_tracks_controls_background.png") no-repeat;
+                    margin: 0;
+                }
+
+                .description {
+                    margin-left: 34px;
+                }
+
+                .selected {
+                    text-align: center;
+                    width: 400px;
+                    margin: 90px auto 0;
+
+                    .text {
+                        font-size: 22px;
+                    }
+
+                    .title {
+                        margin-top: 20px;
+                        font-size: 26px;
+                        line-height: 32px;
+                        font-weight: bold;
+                    }
+                }
+
+
+                .items {
+                    margin: 15px 15px 15px 25px;
+                    height: 396px;
+                    overflow: auto;
+
+                    .item {
+                        margin: 5px 0;
+                        padding: 0 0 5px 0;
+                        line-height: 27px;
+                    }
+
+                    &.smaller {
+                        height: 155px;
+                        margin-top: 10px;
+                    }
+                }
+
+            }
+
+            .choose-genre {
+                top: 570px;
+                left: 25px;
+                overflow: hidden;
+
+                .genre-selector {
+                    float: left;
+                    width: 195px;
+                    margin-left: 8px;
+                    margin-top: 7px;
+
+                    #uniform-genre {                    
+                        @include transition(opacity, .5s, ease);
+                        &:hover {
+                            filter: alpha(opacity = 70); /*IE*/
+                            opacity: 0.7;
+                            @include transition(opacity, .5s, ease);
+                        }
+                    }
+                }
+            }
+
+            .bio {
+                top: 648px;
+                left: 25px;
+                width: 520px;
+                height: 223px;
+
+                .controls {
+                    margin-left: 0;
+                }
+
+                textarea {
+                    background: url("../img/setup_bio_background.png") no-repeat;
+                    padding: 25px 45px;
+                    color: #ddd;
+                    border: none;
+                    resize: none;
+                    width: 520px;
+                    height: 329px;
+
+                    @include retina {
+                        background: url("../img/setup_bio_background_2x.png") no-repeat;
+                    }
+                }
+            }
+
+            .info {
+                top: 1074px;
+                left: 25px;
+                width: 820px;
+                height: 130px;
+
+                small.error {
+                    background: none;
+                    color: #f00;
+                }
+
+                img {
+                    height: 40px;
+                    vertical-align: middle;
+                }
+
+                input {
+                    display: inline;
+                    background: url("../img/setup_input_background.png") no-repeat -18px 0;
+                    border: none;
+                    resize: none;
+                    color: #ddd;
+                    margin: 0;
+                    margin-left: -4px;
+                    width: 482px;
+                    height: 39px;
+                    padding: 10px;
+
+                    @include retina {
+                        background: url("../img/setup_input_background_2x.png") no-repeat -18px 0;
+                    }
+                }
+            }
+
+            .preview {
+                top: 49px;
+                right: 68px;
+                width: 360px;
+                height: 650px;
+                background: url("../img/setup_card_outline_2x.png") center 8px no-repeat;
+
+                .title {
+                    text-align: center;
+
+                    img {
+                        margin: 0;
+                        height: 16px;
+                    }
+                }
+
+                .tile {
+                    margin: 20px auto 0;
+                }
+
+                .text {
+                    line-height: 1.3em;
+                    font-size: 13px;
+                    color: #999;
+                    margin-top: 82px;
+                    padding: 46px 10px 14px;
+                    text-align: center;
+                    background: url("../img/setup_your_profile_2x.png") center top no-repeat;
+                }
+
+                .artist {
+                    .wrapper {
+                        @include box-shadow(3px, 24px, 50px, #000000);
+                    }
+
+
+                    .share img {
+                        margin-bottom: 2px;
+                    }
+
+                    .image {
+                        position: relative;
+
+                        .upload {
+                            width: 225px;
+                            height: 35px;
+
+                            position: absolute;
+                            top: 85px;
+                            left: 38px;
+                            cursor: pointer;
+                            z-index: 10;
+
+                            @include opacity(0.55);
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+                            }
+
+                        }
+
+                        &:hover .upload  {
+                            @include opacity(1);
+                        }
+
+                    }
+                }
+            }
+
+
+
+        }
+
+        .footer {
+            height: 221px;
+
+            .buttons {
+
+                .submit {
+                    background: url("../img/setup_save_button.png") no-repeat;
+                    cursor: pointer;
+
+                    @include retina {
+                        background: url("../img/setup_save_button_2x.png") no-repeat;
+                    }
+
+                    @include transition(opacity, .5s, ease);
+                    &:hover {
+                        filter: alpha(opacity = 70); /*IE*/
+                        opacity: 0.7;
+                        @include transition(opacity, .5s, ease);
+                    }
+
+                    width: 211px;
+                    height: 70px;
+
+                    margin: 0 auto;
+                }
+            }
+        }
+
+        #modals {
+            display: none;
+        }
+
+    }
+
+    #image {
+
+        &.modal {
+            width: auto;
+        }
+
+        background: url(../img/setup_uploader_background.jpg);
+        height: 100%;
+        text-align: center;
+
+        #uploader {
+            margin: 0 auto;
+            padding-top: 210px;
+
+
+        }
+
+        #uploader-queue {
+            margin-top: 25px;
+            background: transparent;
+            color: #eee;
+
+            .uploadify-queue-item {
+                margin: 0 auto;
+                background: none;
+            }
+
+            .uploadify-progress-bar {
+                background-color: #fff;
+            }
+        }
+
+
+    }
+
+    #editor {
+        display: none;
+
+        .image {
+            width: 540px;
+            height: 415px;
+            overflow: hidden;
+            margin: 0 auto;
+            padding: 70px 10px 10px;
+
+            img {
+                max-width: 520px;
+                max-height: 320px;
+            }
+
+            .jcrop-holder {
+                margin: 0 auto;
+            }
+
+        }
+
+        .save, .reset {
+            height: 25px;
+            cursor: pointer;
+            margin: 0 10px;
+        }
+    }
+
+    .modal {
+        background: url(../img/setup_modal_background.jpg) no-repeat;
+        height: 483px;
+        width: 778px;
+        color: #eee;
+
+        .heading {
+            text-align: center;
+            padding: 40px 0 75px;
+            img {
+                height: 26px;
+            }
+        }
+
+        .text {
+            width: 600px;
+            margin: 20px auto;
+            text-align: center;
+            color: #eee;
+        }
+
+        .submit, .cancel {
+            height: 33px;
+            margin: 0 20px;
+            cursor: pointer;
+        }
+
+        .selection {
+            background: url(../img/modal_track_background.png) no-repeat;
+            width: 477px;
+            height: 76px;
+            margin: 20px auto;
+            text-align: center;
+            line-height: 76px;
+            font-size: 16px;
+        }
+
+        .terms {
+            text-align: center;
+            margin-bottom: 20px;
+            
+            a{
+        		text-decoration:underline;
+            }
+            
+            
+        }
+        
+        .error {
+            color: #f00;
+            text-align: center;
+            margin: 10px 0 20px;
+        }
+        
+        .buttons {
+            text-align: center;
+        }
+    }
+
+}
+

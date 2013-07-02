@@ -1,0 +1,165 @@
+@import "_mixins";
+@import "player";
+
+#content {
+    padding-top: 90px;
+    background: #000 url(../img/background_mobile.jpg) no-repeat center top;
+
+    .heading {
+
+        .header {
+            text-align: center;
+        }
+
+        .description {
+            text-align: center;
+        }
+    }
+    
+    .titlePlayerBackground{
+    	margin: 0;
+    	width:300px;
+    	height:120px;
+    	top:0px;
+    	left:0px;
+     	background: url(../img/artistCard_mobile.jpg) no-repeat center top;
+    }
+    
+    .trackTitle{
+    	margin: 0;
+    	width:300px;
+    	left:0px;
+     	
+    }
+    
+    .mobilePlayer{
+   		margin: 0 auto;
+    	width:300px;
+    	left:20px;
+    }
+    
+    .player{
+    	margin: 0 auto;
+    	width:300px;
+    	
+    }
+
+    h1, .genre {
+        text-align: center;
+        color: #fff;
+        font-size: 26px;
+        margin-bottom: 5px;
+    }
+
+    h1 {
+        font-family: AkzidenzGroteskBE-Cn;
+        font-size: 50px;
+        @include shadowBorder;
+    }
+
+    h2 {
+        color: #fff;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .genre {
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .amplify {
+        img {
+            width: 300px;
+            margin-bottom: 5px;
+        }
+    }
+
+    .buttons {
+        text-align: center;
+    }
+
+    .image {
+    	width:300px;
+        text-align: center;
+        margin-bottom: -2px;
+    }
+
+    .bio {
+    	
+        margin: 0px auto;
+
+        p {
+        	width:280px;
+        	margin: 0px auto;
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+
+    .info {
+    	
+    	width:280px;
+        margin: 0px auto;
+        text-align: left;
+        ul {
+            list-style: none;
+            li {
+                margin: 10px 0 0 40px;
+                img {
+                    vertical-align: middle;
+                    margin: 0 10px 0 0;
+                }
+            }
+        }
+    }
+	
+	  .badgeLeft {
+		  position: absolute; top: 38px; left: 40px;
+		  width: 119px;
+		  height: 107px;
+		  color: #FFF;
+		  z-index: 20;
+	  }
+	  
+	  .badgeRight {
+		  position: absolute; top: 378px; left: 735px;
+		  width: 119px;
+		  height: 107px;
+		  color: #FFF;
+		  z-index: 20;
+	  }
+		
+		
+	 .boxes {
+	 
+		font-family: AkzidenzGroteskBE-Cn;
+		
+		.box {
+			margin: 0 auto 20px;
+			width: 268px;
+			height: 224px;
+			background: url(../img/setup_tracks_mobile.png) no-repeat;
+			color: #fff;
+			padding: 80px 20px 0;
+			text-align: center;
+			text-transform: uppercase;
+			
+			.numbers {
+				font-size: 80px;
+				line-height: 80px;
+			}
+			.countdown {
+				font-size: 40px;
+				line-height: 40px;
+			}
+
+		}
+    
+    }
+    
+    
+    
+    
+}

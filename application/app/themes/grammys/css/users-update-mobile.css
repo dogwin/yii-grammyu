@@ -1,0 +1,284 @@
+@media only screen and (max-width: 960px) {
+  .artist {
+    width: 50% !important; } }
+.artist .wrapper {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 0;
+  width: 300px;
+  height: 465px;
+  border: solid 1px #222222;
+  position: relative;
+  text-align: center;
+  -webkit-box-shadow: 3px 24px 50px black;
+  -moz-box-shadow: 3px 24px 50px black;
+  -ms-box-shadow: 3px 24px 50px black;
+  box-shadow: 3px 24px 50px black;
+  background: url("../img/artistCard.jpg") no-repeat center top; }
+.artist .image {
+  height: 200px;
+  overflow: hidden; }
+  .artist .image img {
+    width: 300px;
+    height: 200px; }
+.artist .username {
+  position: absolute;
+  top: 250px;
+  left: 0px;
+  width: 298px;
+  height: 30px; }
+  .artist .username h2 {
+    color: #FFF;
+    margin: 0px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 12px;
+    font-family: AkzidenzGroteskBE-Cn; }
+.artist .track {
+  position: absolute;
+  top: 270px;
+  left: 0px;
+  width: 298px;
+  height: 30px; }
+  .artist .track .title {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    line-height: 18px;
+    font-family: AkzidenzGroteskBE-Cn;
+    font-style: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+.artist .genre {
+  position: absolute;
+  top: 433px;
+  left: 0px;
+  width: 298px;
+  height: 30px;
+  color: #FFF;
+  text-align: center;
+  font-size: 11px;
+  line-height: 0;
+  font-family: HelveticaNeueLTStd-Roman, Helvetica, Arial;
+  font-style: normal; }
+.artist .badgeLeft {
+  position: absolute;
+  top: -26px;
+  left: 0px;
+  width: 119px;
+  height: 107px;
+  color: #FFF;
+  z-index: 20; }
+.artist .badgeRight {
+  position: absolute;
+  top: -31px;
+  left: 160px;
+  width: 143px;
+  height: 140px;
+  color: #FFF;
+  z-index: 20; }
+.artist .player {
+  position: absolute;
+  top: 295px;
+  left: 0px;
+  height: 59px; }
+.artist .points {
+  margin: 10px 0 0 0;
+  color: #FFF;
+  text-align: center; }
+  .artist .points ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center; }
+    .artist .points ul li {
+      display: inline;
+      font-size: 14px;
+      color: #a7a7a7;
+      font-family: HelveticaNeueLTStd-Roman, Helvetica, Arial;
+      font-style: normal; }
+      .artist .points ul li .count {
+        font-size: 14px;
+        color: #FFF; }
+.artist .share {
+  position: absolute;
+  top: 380px;
+  left: 0px;
+  width: 298px; }
+  .artist .share img {
+    margin-bottom: 5px; }
+  .artist .share a {
+    -webkit-transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+    -ie-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease; }
+    .artist .share a:hover {
+      filter: alpha(opacity=60);
+      opacity: 0.6;
+      -webkit-transition: opacity 0.5s ease;
+      -moz-transition: opacity 0.5s ease;
+      -o-transition: opacity 0.5s ease;
+      -ie-transition: opacity 0.5s ease;
+      transition: opacity 0.5s ease; }
+.artist .location {
+  position: absolute;
+  top: 440px;
+  left: 0px;
+  width: 298px;
+  height: 18px; }
+  .artist .location img {
+    vertical-align: middle; }
+  .artist .location .city {
+    margin: 0 0 0 4px;
+    font-size: 11px;
+    color: #b5b5b5;
+    font-family: HelveticaNeueLTStd-Roman, Helvetica, Arial;
+    font-style: normal; }
+
+#users-update #content {
+  background: black url(../img/background_mobile.jpg) no-repeat center top fixed;
+  height: auto; }
+  #users-update #content .introduction {
+    text-align: center; }
+    #users-update #content .introduction h1 {
+      margin: 60px auto 0; }
+  #users-update #content .form {
+    width: 270px !important;
+    margin: 0 auto; }
+    #users-update #content .form .section {
+      margin-bottom: 20px; }
+      #users-update #content .form .section .step img {
+        height: 30px; }
+    #users-update #content .form .tracks .controls {
+      width: 268px;
+      height: 224px;
+      background: url(../img/setup_tracks_mobile.png) no-repeat;
+      overflow: auto; }
+      #users-update #content .form .tracks .controls .items {
+        padding: 20px; }
+        #users-update #content .form .tracks .controls .items .item {
+          font-size: 12px;
+          height: 26px;
+          line-height: 26px;
+          overflow: hidden; }
+      #users-update #content .form .tracks .controls .selected {
+        margin: 90px 20px 0;
+        text-align: center; }
+        #users-update #content .form .tracks .controls .selected .title {
+          margin-top: 20px;
+          font-size: 26px;
+          line-height: 32px;
+          font-weight: bold; }
+    #users-update #content .form .genre {
+      position: relative;
+      height: 30px; }
+      #users-update #content .form .genre .step {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 40px; }
+      #users-update #content .form .genre .controls {
+        position: absolute;
+        top: 0;
+        left: 40px; }
+        #users-update #content .form .genre .controls select {
+          height: 30px;
+          width: 230px; }
+    #users-update #content .form .bio .controls textarea {
+      width: 268px;
+      height: 224px;
+      background: url(../img/setup_tracks_mobile.png) no-repeat;
+      color: #fff;
+      padding: 20px;
+      border: none; }
+    #users-update #content .form .info .step img {
+      height: 35px; }
+    #users-update #content .form .info .controls input {
+      background-repeat: no-repeat;
+      background-position: top left;
+      width: 260px;
+      height: 26px;
+      color: #fff;
+      border: none;
+      font-size: 12px;
+      padding-left: 30px;
+      padding-top: 9px;
+      margin-top: 10px; }
+    #users-update #content .form .info .controls .facebook input {
+      background-image: url(../img/setup_facebook_mobile.png); }
+    #users-update #content .form .info .controls .twitter input {
+      background-image: url(../img/setup_twitter_mobile.png); }
+    #users-update #content .form .info .controls small.error {
+      display: none;
+      padding: 3px;
+      width: 260px;
+      margin-top: 9px; }
+  #users-update #content .buttons {
+    text-align: center; }
+    #users-update #content .buttons .submit {
+      height: 53px;
+      cursor: pointer; }
+#users-update .modal {
+  width: 300px;
+  background: black url(../img/background_mobile.jpg) no-repeat center top;
+  padding: 20px; }
+  #users-update .modal .heading {
+    padding: 0; }
+  #users-update .modal .text {
+    width: auto; }
+  #users-update .modal .selection {
+    background: #000;
+    border: solid 2px #ddd;
+    width: auto;
+    line-height: normal;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px; }
+
+#modals {
+  display: none; }
+
+.modal {
+  background: url(../img/setup_modal_background.jpg) no-repeat;
+  height: 483px;
+  width: 778px;
+  color: #eee; }
+  .modal .heading {
+    text-align: center;
+    padding: 40px 0 75px; }
+    .modal .heading img {
+      height: 26px; }
+  .modal .text {
+    width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    color: #eee; }
+  .modal .submit, .modal .cancel {
+    height: 33px;
+    margin: 0 20px;
+    cursor: pointer; }
+  .modal .selection {
+    background: url(../img/modal_track_background.png) no-repeat;
+    width: 477px;
+    height: 76px;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 76px;
+    font-size: 16px; }
+  .modal .terms {
+    text-align: center;
+    margin-bottom: 20px; }
+    .modal .terms a {
+      text-decoration: underline; }
+  .modal .error {
+    color: #f00;
+    text-align: center;
+    margin: 10px 0 20px; }
+  .modal .buttons {
+    text-align: center; }

@@ -1,0 +1,66 @@
+@import "_mixins";
+
+.player {
+    .mejs-container {
+
+        width: 300px;
+        background: none;
+
+        .mejs-controls {
+
+            background: none;
+            bottom: auto;
+
+
+            .mejs-playpause-button {
+                width: 58px;
+                height: 60px;
+
+                button {
+                    width: 40px;
+                    height: 40px;
+                    margin: 12px 0px 12px 14px;
+                    background: url(../img/player_controls.png);
+                    outline-style: none;
+
+                }
+
+                &.mejs-play:hover button {
+                    background-position: 0 40px;
+                }
+
+                &.mejs-pause button {
+                    background-position: 40px 0px;
+                }
+
+                &.mejs-pause:hover button {
+                    background-position: 40px 40px;
+                }
+
+            }
+
+            .mejs-time-rail {
+                height: 53px;
+                padding-top: 1px;
+
+                .mejs-time-loaded {
+                    background: none;
+                }
+
+                .mejs-time-total {
+                    height: 53px;
+                    background: none;
+                    @include rounded-all(0);
+                    
+                    .mejs-time-loaded, .mejs-time-current {
+                        height: 53px;
+  						 @include rounded-all(0);                    
+   					}
+                    
+                }
+            }
+
+        }
+
+    }
+}

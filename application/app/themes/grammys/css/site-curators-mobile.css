@@ -1,0 +1,61 @@
+.curator {
+  background-repeat: no-repeat;
+  background-position: center 50px;
+  height: 380px; }
+  .curator .tile {
+    margin: 0 auto;
+    width: 320px;
+    height: 400px;
+    background-position: center top;
+    background-repeat: no-repeat; }
+    .curator .tile .title {
+      text-align: center;
+      padding-top: 310px; }
+    .curator .tile .reach {
+      margin: 5px auto 0;
+      text-align: center;
+      height: 44px;
+      background: url(../img/curators_reach.png) no-repeat top center; }
+      .curator .tile .reach .count {
+        font-family: AkzidenzGroteskBE-LightCn, "Helvetica Neue", helvetica, Arial, Sans-Serif;
+        text-align: center;
+        color: #FFF;
+        font-size: 20px;
+        padding-top: 23px;
+        letter-spacing: 1px; }
+
+#content {
+  background: black url(../img/background_mobile.jpg) no-repeat center top;
+  height: auto; }
+  #content .heading {
+    margin: 30px auto 0;
+    background: url(../img/curators_heading_mobile.png) no-repeat center top;
+    height: auto;
+    width: 320px;
+    overflow: hidden;
+    text-align: center; }
+    #content .heading .title {
+      display: none; }
+    #content .heading .text {
+      width: 280px;
+      padding: 0;
+      padding-top: 108px;
+      margin: 0 auto;
+      color: #aaa;
+      font-size: 14px;
+      line-height: 14px;
+      font-style: normal; }
+  #content .totalreach {
+    font-family: "AkzidenzGroteskBE-Cn", "Helvetica Neue", helvetica, Arial, Sans-Serif;
+    color: #999;
+    margin: 40px 0 0px; }
+    #content .totalreach .socialreachtitle {
+      font-size: 20px;
+      margin-bottom: 15px; }
+    #content .totalreach .numbers {
+      font-size: 40px;
+      margin-bottom: 15px;
+      letter-spacing: 1px; }
+    #content .totalreach .date {
+      font-size: 20px;
+      text-transform: uppercase; }

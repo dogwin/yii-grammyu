@@ -1,0 +1,141 @@
+@import "_mixins";
+@import "_curator";
+@import "_artists";
+
+#site-curator {
+
+    #background {
+        background: url("../img/curator_background.jpg") no-repeat center 0px;
+    }
+
+    #content {
+        min-height: 1800px;
+    }
+
+    .curator-single {
+        width: 1024px;
+        height: 591px;
+        overflow: hidden;
+    }
+
+    .curator-single.rza {
+        background: url("../img/curators/rza.jpg") no-repeat center top;
+    }
+
+    .curator-single.linkin-park {
+        background: url("../img/curators/linkin-park.jpg") no-repeat center top;
+    }
+
+    .curator-single.ozzy {
+        background: url("../img/curators/ozzy.jpg") no-repeat center top;
+    }
+
+    .curator-single.kelly-clarkson {
+        background: url("../img/curators/kelly-clarkson.jpg") no-repeat center top;
+    }
+
+    .curator-single.jim-james {
+        background: url("../img/curators/jim-james.jpg") no-repeat center top;
+    }
+    
+    .curator-single.kaskade {
+        background: url("../img/curators/kaskade.jpg") no-repeat center top;
+    }
+    
+    .curator-single.snoop-lion {
+        background: url("../img/curators/snoop.jpg") no-repeat center top;
+    }
+
+
+    .reach {
+        width: 1024px;
+        height: 74px;
+        overflow: hidden;
+
+        ul {
+            margin: 17px auto 0;
+            padding: 0;
+            font-family: AkzidenzGroteskBE-Cn;
+            text-align: center;
+            width: 750px;
+        }
+
+        li {
+            float: left;
+            list-style: none;
+            color: #999;
+            font-size: 20px;
+            text-transform: uppercase;
+            width: 230px;
+            padding-top: 6px;
+        }
+
+        li.reach {
+            margin-right: 20px;
+            text-align: right;
+        }
+
+        li.stat {
+            font-size: 30px;
+            padding: 0;
+            text-align: center;
+            margin: 0 10px;
+            letter-spacing:1px;
+
+        }
+
+        li.date {
+            text-align: left;
+            margin-left: 20px;
+        }
+
+
+    }
+
+    .description {
+        text-align: center;
+        font-family: AkzidenzGroteskBE-Cn;
+        padding: 41px 0;
+        height: 160px;
+        overflow: hidden;
+        width: 920px;
+        margin: 0 auto;
+        position: relative;
+
+        p {
+            font-size: 25px;
+            line-height: 26px;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .gradient {
+            width: 100%;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 122px;
+            background: url("../img/curator_desc_gradient.png") repeat-x;
+            pointer-events:none;
+        }
+    }
+
+    .curator-title {
+        text-align: center;
+        text-transform: uppercase;
+        padding: 25px 0 0;
+        height: 89px;
+        .amped-by {
+            font-size: 15px;
+        }
+        .curator-name {
+            font-size: 22px;
+            line-height: 28px;
+        }
+    }
+
+    #artists {
+        margin: 40px 0 0 11px;
+    }
+}

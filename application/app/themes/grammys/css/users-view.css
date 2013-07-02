@@ -1,0 +1,315 @@
+@font-face {
+  font-family: 'AkzidenzGroteskBE-Cn';
+  src: url("../fonts/akzidenzgroteskbe-cn.eot");
+  src: url("../fonts/akzidenzgroteskbe-cn.eot?#iefix") format("embedded-opentype"), url("../fonts/akzidenzgroteskbe-cn.woff") format("woff"), url("../fonts/akzidenzgroteskbe-cn.ttf") format("truetype"), url("../fonts/akzidenzgroteskbe-cn.svg#akzidenzgroteskbe-cn") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'BenguiatStd-Book';
+  src: url("../fonts/benguiatstdbook.eot");
+  src: url("../fonts/benguiatstdbook.eot?#iefix") format("embedded-opentype"), url("../fonts/benguiatstdbook.woff") format("woff"), url("../fonts/benguiatstdbook.ttf") format("truetype"), url("../fonts/benguiatstdbook.svg#benguiatstdbook") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'AkzidenzGroteskBE-LightCn';
+  src: url("../fonts/bertholdakzidenzgrotesklightcondensed.eot");
+  src: url("../fonts/bertholdakzidenzgrotesklightcondensed.eot?#iefix") format("embedded-opentype"), url("../fonts/bertholdakzidenzgrotesklightcondensed.woff") format("woff"), url("../fonts/bertholdakzidenzgrotesklightcondensed.ttf") format("truetype"), url("../fonts/bertholdakzidenzgrotesklightcondensed.svg#bertholdakzidenzgrotesklightcondensed") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'HelveticaNeueLTStd-Roman';
+  src: url("../fonts/helveticaneueltstd-roman-webfont.eot");
+  src: url("../fonts/helveticaneueltstd-roman-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/helveticaneueltstd-roman-webfont.woff") format("woff"), url("../fonts/helveticaneueltstd-roman-webfont.ttf") format("truetype"), url("../fonts/helveticaneueltstd-roman-webfont.svg#helveticaneueltstd-roman-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+#users-view #background {
+  min-width: 1024px;
+  background-position: center bottom;
+  background-image: url("../img/user_background_body.jpg");
+  background-color: #000; }
+#users-view .heading .headerTall {
+  height: 400px;
+  text-align: center;
+  padding: 70px 0 0 0; }
+#users-view .heading .headerShort {
+  height: 200px;
+  text-align: center;
+  padding: 50px 0 0 0; }
+#users-view .heading .separator {
+  border-bottom: 1px solid #fff;
+  margin: 11px auto 12px auto; }
+#users-view .heading .buttons {
+  text-align: center; }
+  #users-view .heading .buttons img {
+    margin: 20px 14px 10px; }
+  #users-view .heading .buttons a {
+    text-decoration: none; }
+#users-view .heading .description {
+  font-size: 16px;
+  color: #fff;
+  width: 650px;
+  text-align: center;
+  margin: 0 auto; }
+#users-view .heading .row {
+  text-align: center;
+  margin: 0 0 100px; }
+  #users-view .heading .row label {
+    display: inline;
+    color: #FFF;
+    width: 100px; }
+  #users-view .heading .row .noentry {
+    display: inline;
+    width: 200px;
+    background-image: url("../img/input_background.png");
+    border: solid 1px #333;
+    resize: none;
+    color: #ddd;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; }
+  #users-view .heading .row .copy {
+    vertical-align: middle;
+    cursor: pointer; }
+#users-view .pattern {
+  background-image: url("../img/pattern_top_line.jpg");
+  height: 8px; }
+#users-view .artistName {
+  margin-top: 80px;
+  height: 50px; }
+  #users-view .artistName h1 {
+    font-family: AkzidenzGroteskBE-Cn;
+    font-size: 50px;
+    color: #fff;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; }
+#users-view .artistNameShort {
+  text-align: center;
+  margin-bottom: 10px;
+  height: 30px; }
+  #users-view .artistNameShort h1 {
+    margin-top: 0px;
+    font-family: AkzidenzGroteskBE-Cn;
+    font-size: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; }
+#users-view .artist {
+  padding-bottom: 45px; }
+  #users-view .artist .profile {
+    float: left; }
+    #users-view .artist .profile h1 {
+      font-family: AkzidenzGroteskBE-Cn;
+      font-size: 30px;
+      color: #fff;
+      text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; }
+    #users-view .artist .profile .details {
+      width: 560px;
+      height: 1095px;
+      padding: 28px; }
+      #users-view .artist .profile .details .profileImage {
+        margin-left: 2px;
+        width: 502px;
+        height: 334px; }
+        #users-view .artist .profile .details .profileImage img {
+          width: 100%; }
+      #users-view .artist .profile .details .imageOverlay {
+        width: 508px;
+        position: absolute;
+        left: 42px;
+        top: 61px;
+        height: 343px;
+        background: url("../img/user_profile_image_overlay.png") repeat-x;
+        pointer-events: none; }
+      #users-view .artist .profile .details h2 {
+        font-family: AkzidenzGroteskBE-Cn;
+        font-size: 32px;
+        line-height: 20px;
+        text-align: center;
+        color: #fff;
+        text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; }
+      #users-view .artist .profile .details .player_container {
+        margin-left: 10px;
+        margin-top: 25px;
+        height: 95px;
+        width: 490px;
+        overflow: hidden; }
+      #users-view .artist .profile .details .player {
+        padding: 0px;
+        height: 100px;
+        width: 490px; }
+        #users-view .artist .profile .details .player .mejs-container {
+          height: 100px;
+          width: 390px;
+          background: none; }
+          #users-view .artist .profile .details .player .mejs-container .mejs-inner, #users-view .artist .profile .details .player .mejs-container .mejs-mediaelement, #users-view .artist .profile .details .player .mejs-container .mejs-layers, #users-view .artist .profile .details .player .mejs-container .mejs-controls {
+            width: 490px; }
+          #users-view .artist .profile .details .player .mejs-container .mejs-controls {
+            background: none;
+            bottom: auto; }
+            #users-view .artist .profile .details .player .mejs-container .mejs-controls .mejs-playpause-button {
+              width: 100px;
+              height: 100px; }
+              #users-view .artist .profile .details .player .mejs-container .mejs-controls .mejs-playpause-button button {
+                width: 80px;
+                height: 80px;
+                margin: 10px 0px 10px 10px;
+                background: url(../img/player_controls_2x.png);
+                outline-style: none; }
+              #users-view .artist .profile .details .player .mejs-container .mejs-controls .mejs-playpause-button.mejs-play:hover button {
+                background-position: 0 80px; }
+              #users-view .artist .profile .details .player .mejs-container .mejs-controls .mejs-playpause-button.mejs-pause button {
+                background-position: 80px 0px; }
+              #users-view .artist .profile .details .player .mejs-container .mejs-controls .mejs-playpause-button.mejs-pause:hover button {
+                background-position: 80px 80px; }
+            #users-view .artist .profile .details .player .mejs-container .mejs-controls .mejs-time-rail {
+              height: 100px;
+              padding-top: 1px; }
+              #users-view .artist .profile .details .player .mejs-container .mejs-controls .mejs-time-rail .mejs-time-loaded {
+                background: none; }
+              #users-view .artist .profile .details .player .mejs-container .mejs-controls .mejs-time-rail .mejs-time-total {
+                height: 100px;
+                background: none;
+                border-radius: 0;
+                -moz-border-radius: 0;
+                -webkit-border-radius: 0; }
+                #users-view .artist .profile .details .player .mejs-container .mejs-controls .mejs-time-rail .mejs-time-total .mejs-time-loaded, #users-view .artist .profile .details .player .mejs-container .mejs-controls .mejs-time-rail .mejs-time-total .mejs-time-current {
+                  height: 100px;
+                  background-repeat: none;
+                  border-radius: 0;
+                  -moz-border-radius: 0;
+                  -webkit-border-radius: 0; }
+      #users-view .artist .profile .details .buttons {
+        margin: 30px auto; }
+        #users-view .artist .profile .details .buttons a img {
+          text-decoration: none; }
+        #users-view .artist .profile .details .buttons a.facebook img {
+          margin-right: 43px; }
+      #users-view .artist .profile .details .bio {
+        width: 475px;
+        min-height: 100px;
+        max-height: 240px;
+        overflow: auto;
+        margin: 20px; }
+        #users-view .artist .profile .details .bio h2 {
+          font-family: AkzidenzGroteskBE-Cn;
+          font-size: 30px;
+          line-height: 1px;
+          color: #fff;
+          text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; }
+        #users-view .artist .profile .details .bio p {
+          font-size: 14px;
+          color: #fff;
+          letter-spacing: 0.09em; }
+  #users-view .artist .info ul {
+    width: 375px; }
+    #users-view .artist .info ul li {
+      border: 1px solid #333333;
+      height: 35px;
+      margin: 5px;
+      padding: 3px 0 0 0;
+      list-style: none; }
+      #users-view .artist .info ul li img {
+        vertical-align: middle;
+        margin-right: 10px; }
+      #users-view .artist .info ul li a {
+        text-decoration: none;
+        font-size: 14px;
+        color: #fff;
+        letter-spacing: 0.09em; }
+  #users-view .artist .badgeLeft {
+    position: absolute;
+    top: 38px;
+    left: 50px;
+    width: 119px;
+    height: 107px;
+    color: #FFF;
+    z-index: 20; }
+  #users-view .artist .badgeRight {
+    position: absolute;
+    top: 390px;
+    left: 725px;
+    width: 143px;
+    height: 140px;
+    color: #FFF;
+    z-index: 20; }
+  #users-view .artist .stats {
+    float: right;
+    width: 395px; }
+    #users-view .artist .stats h2 {
+      font-family: AkzidenzGroteskBE-Cn;
+      font-size: 30px;
+      color: #fff;
+      text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; }
+    #users-view .artist .stats img {
+      margin: 0 0 0 7px; }
+    #users-view .artist .stats .boxes {
+      font-family: AkzidenzGroteskBE-Cn; }
+      #users-view .artist .stats .boxes .top {
+        width: 370px;
+        height: 310px;
+        text-align: center;
+        margin-top: 35px;
+        border: 0px solid #FF0000; }
+        #users-view .artist .stats .boxes .top .numbers {
+          text-align: center;
+          clear: both; }
+        #users-view .artist .stats .boxes .top .countdown {
+          text-align: center;
+          clear: both; }
+        #users-view .artist .stats .boxes .top .data {
+          padding-top: 100px;
+          font-size: 80px;
+          line-height: 80px; }
+        #users-view .artist .stats .boxes .top .text {
+          font-size: 40px;
+          line-height: 1px;
+          padding: 20px 0 0 0;
+          color: #fff;
+          text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; }
+        #users-view .artist .stats .boxes .top .gradient {
+          width: 370px;
+          position: relative;
+          left: 0;
+          top: -100px;
+          height: 200px;
+          background: url("../img/user_count_gradient.png") repeat-x;
+          pointer-events: none; }
+      #users-view .artist .stats .boxes .bottom {
+        width: 370px;
+        height: 310px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        border: 0px solid #FF0000; }
+        #users-view .artist .stats .boxes .bottom .numbers {
+          text-align: center;
+          clear: both; }
+        #users-view .artist .stats .boxes .bottom .countdown {
+          text-align: center;
+          clear: both; }
+        #users-view .artist .stats .boxes .bottom .data {
+          font-size: 80px;
+          line-height: 80px;
+          padding-top: 100px; }
+        #users-view .artist .stats .boxes .bottom .text {
+          font-family: AkzidenzGroteskBE-Cn;
+          font-size: 30px;
+          line-height: 1px;
+          padding: 20px 0 0 0;
+          color: #fff;
+          text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; }
+        #users-view .artist .stats .boxes .bottom .gradient {
+          width: 370px;
+          position: relative;
+          left: 0;
+          top: -100px;
+          height: 200px;
+          background: url("../img/user_count_gradient.png") repeat-x;
+          pointer-events: none; }
+
+html.lt-ie9 #users-view .artist .stats .boxes .bottom .data, html.lt-ie9 #users-view .artist .stats .boxes .top .data {
+  font-family: Arial;
+  font-size: 60px; }

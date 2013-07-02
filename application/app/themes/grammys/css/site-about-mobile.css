@@ -1,0 +1,44 @@
+#content {
+  background: black url(../img/background_mobile.jpg) no-repeat center top;
+  height: auto; }
+  #content .heading {
+    margin: 30px auto 0;
+    background: url(../img/about_heading_mobile.png) no-repeat center top;
+    height: 200px;
+    width: 320px;
+    overflow: hidden; }
+    #content .heading .title {
+      display: none; }
+    #content .heading .text {
+      width: 280px;
+      padding: 0;
+      padding-top: 100px;
+      margin: 0 auto;
+      text-align: center; }
+  #content .update {
+    height: 200px;
+    width: 320px;
+    overflow: hidden; }
+    #content .update .title {
+      display: none; }
+    #content .update .text {
+      width: 280px;
+      padding: 0;
+      padding-top: 100px;
+      margin: 0 auto;
+      text-align: center; }
+  #content .steps {
+    width: 300px;
+    height: 240px;
+    margin: 0 auto 20px; }
+    #content .steps ul {
+      list-style: none; }
+      #content .steps ul li img {
+        width: auto; }
+  #content .description {
+    margin-top: 10px;
+    text-align: center; }
+  #content .getamplified {
+    text-align: center; }
+    #content .getamplified img {
+      width: 256px; }

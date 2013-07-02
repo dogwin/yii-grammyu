@@ -1,0 +1,257 @@
+@import "_mixins";
+@import "_artists";
+
+#users-update {
+
+        #content {
+            background: #000 url(../img/background_mobile.jpg) no-repeat center top fixed;
+            height: auto;
+
+            .introduction {
+                text-align: center;
+
+                h1 {
+                    margin: 60px auto 0;
+                }
+            }
+
+            .form {
+
+                width: 270px !important;
+                margin: 0 auto;
+
+                .section {
+
+                    margin-bottom: 20px;
+
+                    .step {
+
+                        img {
+                            height: 30px;
+                        }
+                    }
+                }
+
+                .tracks {
+
+                    .controls {
+
+                        width: 268px;
+                        height: 224px;
+                        background: url(../img/setup_tracks_mobile.png) no-repeat;
+                        overflow: auto;
+
+                        .items {
+                            padding: 20px;
+
+                            .item {
+                                font-size: 12px;
+                                height: 26px;
+                                line-height: 26px;
+                                overflow: hidden;
+                            }
+                        }
+
+                        .selected {
+                            margin: 90px 20px 0;
+                            text-align: center;
+                            
+                            .title {
+								margin-top: 20px;
+								font-size: 26px;
+								line-height: 32px;
+								font-weight: bold;
+							}
+                    
+                    
+                        }
+                    }
+                }
+
+                .genre {
+                    position: relative;
+                    height: 30px;
+
+                    .step {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 40px;
+                    }
+
+                    .controls {
+                        position: absolute;
+                        top: 0;
+                        left: 40px;
+
+                        select {
+                            height: 30px;
+                            width: 230px;
+                        }
+                    }
+                }
+
+                .bio {
+
+                    .controls {
+
+                        textarea {
+                            width: 268px;
+                            height: 224px;
+                            background: url(../img/setup_tracks_mobile.png) no-repeat;
+                            color: #fff;
+                            padding: 20px;
+                            border: none;
+                        }
+                    }
+                }
+
+                .info {
+
+                    .step {
+
+                        img {
+                            height: 35px;
+                        }
+                    }
+
+                    .controls {
+
+                        input {
+                            background-repeat: no-repeat;
+                            background-position: top left;
+                            width: 260px;
+                            height: 26px;
+                            color: #fff;
+                            border: none;
+                            font-size: 12px;
+                            padding-left: 30px;
+                            padding-top: 9px;
+                            margin-top: 10px;
+                        }
+
+                        .facebook {
+                            input {
+                                background-image: url(../img/setup_facebook_mobile.png);
+                            }
+                        }
+
+                        .twitter {
+                            input {
+                                background-image: url(../img/setup_twitter_mobile.png);
+                            }
+                        }
+
+                        small.error {
+                            display: none;
+                            padding: 3px;
+                            width: 260px;
+                            margin-top: 9px;
+
+                        }
+                    }
+                }
+
+            }
+
+            .buttons {
+                text-align: center;
+                .submit {
+                    height: 53px;
+                    cursor: pointer;
+                }
+            }
+
+
+        }
+
+        .modal {
+            width: 300px;
+            background: #000 url(../img/background_mobile.jpg) no-repeat center top;
+            padding: 20px;
+
+            .heading {
+                padding: 0;
+            }
+
+            .text {
+                width: auto;
+            }
+
+            .selection {
+                background: #000;
+                border: solid 2px #ddd;
+                width: auto;
+                line-height: normal;
+                height: auto;
+                padding: 20px;
+
+                @include rounded-all;
+            }
+        }
+
+    }
+
+
+#modals {
+    display: none;
+}
+
+.modal {
+    background: url(../img/setup_modal_background.jpg) no-repeat;
+    height: 483px;
+    width: 778px;
+    color: #eee;
+
+    .heading {
+        text-align: center;
+        padding: 40px 0 75px;
+        img {
+            height: 26px;
+        }
+    }
+
+    .text {
+        width: 600px;
+        margin: 20px auto;
+        text-align: center;
+        color: #eee;
+    }
+
+    .submit, .cancel {
+        height: 33px;
+        margin: 0 20px;
+        cursor: pointer;
+    }
+
+    .selection {
+        background: url(../img/modal_track_background.png) no-repeat;
+        width: 477px;
+        height: 76px;
+        margin: 20px auto;
+        text-align: center;
+        line-height: 76px;
+        font-size: 16px;
+    }
+
+    .terms {
+        text-align: center;
+        margin-bottom: 20px;
+
+        a{
+            text-decoration:underline;
+        }
+
+
+    }
+
+    .error {
+        color: #f00;
+        text-align: center;
+        margin: 10px 0 20px;
+    }
+
+    .buttons {
+        text-align: center;
+    }
+}

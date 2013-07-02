@@ -1,0 +1,459 @@
+@media only screen and (max-width: 960px) {
+  .artist {
+    width: 50% !important; } }
+.artist .wrapper {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 0;
+  width: 300px;
+  height: 465px;
+  border: solid 1px #222222;
+  position: relative;
+  text-align: center;
+  -webkit-box-shadow: 3px 24px 50px black;
+  -moz-box-shadow: 3px 24px 50px black;
+  -ms-box-shadow: 3px 24px 50px black;
+  box-shadow: 3px 24px 50px black;
+  background: url("../img/artistCard.jpg") no-repeat center top; }
+.artist .image {
+  height: 200px;
+  overflow: hidden; }
+  .artist .image img {
+    width: 300px;
+    height: 200px; }
+.artist .username {
+  position: absolute;
+  top: 250px;
+  left: 0px;
+  width: 298px;
+  height: 30px; }
+  .artist .username h2 {
+    color: #FFF;
+    margin: 0px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 12px;
+    font-family: AkzidenzGroteskBE-Cn; }
+.artist .track {
+  position: absolute;
+  top: 270px;
+  left: 0px;
+  width: 298px;
+  height: 30px; }
+  .artist .track .title {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    line-height: 18px;
+    font-family: AkzidenzGroteskBE-Cn;
+    font-style: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+.artist .genre {
+  position: absolute;
+  top: 433px;
+  left: 0px;
+  width: 298px;
+  height: 30px;
+  color: #FFF;
+  text-align: center;
+  font-size: 11px;
+  line-height: 0;
+  font-family: HelveticaNeueLTStd-Roman, Helvetica, Arial;
+  font-style: normal; }
+.artist .badgeLeft {
+  position: absolute;
+  top: -26px;
+  left: 0px;
+  width: 119px;
+  height: 107px;
+  color: #FFF;
+  z-index: 20; }
+.artist .badgeRight {
+  position: absolute;
+  top: -31px;
+  left: 160px;
+  width: 143px;
+  height: 140px;
+  color: #FFF;
+  z-index: 20; }
+.artist .player {
+  position: absolute;
+  top: 295px;
+  left: 0px;
+  height: 59px; }
+.artist .points {
+  margin: 10px 0 0 0;
+  color: #FFF;
+  text-align: center; }
+  .artist .points ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center; }
+    .artist .points ul li {
+      display: inline;
+      font-size: 14px;
+      color: #a7a7a7;
+      font-family: HelveticaNeueLTStd-Roman, Helvetica, Arial;
+      font-style: normal; }
+      .artist .points ul li .count {
+        font-size: 14px;
+        color: #FFF; }
+.artist .share {
+  position: absolute;
+  top: 380px;
+  left: 0px;
+  width: 298px; }
+  .artist .share img {
+    margin-bottom: 5px; }
+  .artist .share a {
+    -webkit-transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+    -ie-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease; }
+    .artist .share a:hover {
+      filter: alpha(opacity=60);
+      opacity: 0.6;
+      -webkit-transition: opacity 0.5s ease;
+      -moz-transition: opacity 0.5s ease;
+      -o-transition: opacity 0.5s ease;
+      -ie-transition: opacity 0.5s ease;
+      transition: opacity 0.5s ease; }
+.artist .location {
+  position: absolute;
+  top: 440px;
+  left: 0px;
+  width: 298px;
+  height: 18px; }
+  .artist .location img {
+    vertical-align: middle; }
+  .artist .location .city {
+    margin: 0 0 0 4px;
+    font-size: 11px;
+    color: #b5b5b5;
+    font-family: HelveticaNeueLTStd-Roman, Helvetica, Arial;
+    font-style: normal; }
+
+#users-update #background {
+  background: url("../img/setup_background.jpg") center 52px no-repeat; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+    #users-update #background {
+      background: url("../img/setup_background_2x.jpg") center 52px no-repeat; } }
+#users-update #content {
+  min-height: 1988px; }
+  #users-update #content .introduction {
+    position: relative;
+    height: 245px; }
+    #users-update #content .introduction h1 {
+      text-align: center;
+      min-width: 200px;
+      max-width: 400px;
+      width: 40%;
+      margin: 70px auto 10px; }
+    #users-update #content .introduction .description {
+      width: 650px;
+      text-align: center;
+      font-size: 14px;
+      margin: -32px auto 0;
+      background: url("../img/about_txt_background.png") center top no-repeat;
+      padding: 36px 25px 13px; }
+      #users-update #content .introduction .description p {
+        line-height: 1.3em; }
+  #users-update #content .form {
+    position: relative;
+    height: 1286px; }
+    #users-update #content .form .section {
+      position: absolute; }
+      #users-update #content .form .section .step {
+        float: left; }
+        #users-update #content .form .section .step img {
+          height: 47px; }
+      #users-update #content .form .section .title {
+        height: 26px; }
+        #users-update #content .form .section .title img {
+          height: 16px;
+          margin: 12px 0 3px 10px; }
+      #users-update #content .form .section .description {
+        color: #999;
+        margin: 8px 0 10px 50px; }
+      #users-update #content .form .section .controls small.error {
+        display: none; }
+      #users-update #content .form .section .controls .soundcloud,
+      #users-update #content .form .section .controls .facebook,
+      #users-update #content .form .section .controls .twitter {
+        margin-bottom: 5px; }
+    #users-update #content .form .tracks {
+      top: 49px;
+      left: 22px;
+      width: 520px;
+      height: 330px;
+      color: #ddd; }
+      #users-update #content .form .tracks .warning {
+        margin: 15px 10px 10px;
+        padding: 10px;
+        background: #AB9D65;
+        border: solid 1px #615421;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        font-size: 16px;
+        line-height: 1.1em;
+        text-align: center; }
+      #users-update #content .form .tracks .warning.notracks {
+        background: #913C3C;
+        border: solid 1px #612121;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 160px; }
+      #users-update #content .form .tracks .controls {
+        overflow: hidden;
+        width: 520px;
+        height: 426px;
+        background: url("../img/setup_tracks_controls_background.png") no-repeat;
+        margin: 0; }
+      #users-update #content .form .tracks .description {
+        margin-left: 34px; }
+      #users-update #content .form .tracks .selected {
+        text-align: center;
+        width: 400px;
+        margin: 90px auto 0; }
+        #users-update #content .form .tracks .selected .text {
+          font-size: 22px; }
+        #users-update #content .form .tracks .selected .title {
+          margin-top: 20px;
+          font-size: 26px;
+          line-height: 32px;
+          font-weight: bold; }
+      #users-update #content .form .tracks .items {
+        margin: 15px 15px 15px 25px;
+        height: 396px;
+        overflow: auto; }
+        #users-update #content .form .tracks .items .item {
+          margin: 5px 0;
+          padding: 0 0 5px 0;
+          line-height: 27px; }
+        #users-update #content .form .tracks .items.smaller {
+          height: 155px;
+          margin-top: 10px; }
+    #users-update #content .form .choose-genre {
+      top: 570px;
+      left: 25px;
+      overflow: hidden; }
+      #users-update #content .form .choose-genre .genre-selector {
+        float: left;
+        width: 195px;
+        margin-left: 8px;
+        margin-top: 7px; }
+        #users-update #content .form .choose-genre .genre-selector #uniform-genre {
+          -webkit-transition: opacity 0.5s ease;
+          -moz-transition: opacity 0.5s ease;
+          -o-transition: opacity 0.5s ease;
+          -ie-transition: opacity 0.5s ease;
+          transition: opacity 0.5s ease; }
+          #users-update #content .form .choose-genre .genre-selector #uniform-genre:hover {
+            filter: alpha(opacity=70);
+            /*IE*/
+            opacity: 0.7;
+            -webkit-transition: opacity 0.5s ease;
+            -moz-transition: opacity 0.5s ease;
+            -o-transition: opacity 0.5s ease;
+            -ie-transition: opacity 0.5s ease;
+            transition: opacity 0.5s ease; }
+    #users-update #content .form .bio {
+      top: 648px;
+      left: 25px;
+      width: 520px;
+      height: 223px; }
+      #users-update #content .form .bio .controls {
+        margin-left: 0; }
+      #users-update #content .form .bio textarea {
+        background: url("../img/setup_bio_background.png") no-repeat;
+        padding: 25px 45px;
+        color: #ddd;
+        border: none;
+        resize: none;
+        width: 520px;
+        height: 329px; }
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+          #users-update #content .form .bio textarea {
+            background: url("../img/setup_bio_background_2x.png") no-repeat; } }
+    #users-update #content .form .info {
+      top: 1074px;
+      left: 25px;
+      width: 820px;
+      height: 130px; }
+      #users-update #content .form .info small.error {
+        background: none;
+        color: #f00; }
+      #users-update #content .form .info img {
+        height: 40px;
+        vertical-align: middle; }
+      #users-update #content .form .info input {
+        display: inline;
+        background: url("../img/setup_input_background.png") no-repeat -18px 0;
+        border: none;
+        resize: none;
+        color: #ddd;
+        margin: 0;
+        margin-left: -4px;
+        width: 482px;
+        height: 39px;
+        padding: 10px; }
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+          #users-update #content .form .info input {
+            background: url("../img/setup_input_background_2x.png") no-repeat -18px 0; } }
+    #users-update #content .form .preview {
+      top: 49px;
+      right: 68px;
+      width: 360px;
+      height: 650px;
+      background: url("../img/setup_card_outline_2x.png") center 8px no-repeat; }
+      #users-update #content .form .preview .title {
+        text-align: center; }
+        #users-update #content .form .preview .title img {
+          margin: 0;
+          height: 16px; }
+      #users-update #content .form .preview .tile {
+        margin: 20px auto 0; }
+      #users-update #content .form .preview .text {
+        line-height: 1.3em;
+        font-size: 13px;
+        color: #999;
+        margin-top: 82px;
+        padding: 46px 10px 14px;
+        text-align: center;
+        background: url("../img/setup_your_profile_2x.png") center top no-repeat; }
+      #users-update #content .form .preview .artist .wrapper {
+        -webkit-box-shadow: 3px 24px 50px black;
+        -moz-box-shadow: 3px 24px 50px black;
+        -ms-box-shadow: 3px 24px 50px black;
+        box-shadow: 3px 24px 50px black; }
+      #users-update #content .form .preview .artist .share img {
+        margin-bottom: 2px; }
+      #users-update #content .form .preview .artist .image {
+        position: relative; }
+        #users-update #content .form .preview .artist .image .upload {
+          width: 225px;
+          height: 35px;
+          position: absolute;
+          top: 85px;
+          left: 38px;
+          cursor: pointer;
+          z-index: 10;
+          opacity: 0.55;
+          -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=" 55.0 ")";
+          filter: alpha(opacity=55.0);
+          zoom: 1; }
+          #users-update #content .form .preview .artist .image .upload img {
+            width: 100%;
+            height: 100%; }
+        #users-update #content .form .preview .artist .image:hover .upload {
+          opacity: 1;
+          -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=" 100 ")";
+          filter: alpha(opacity=100);
+          zoom: 1; }
+  #users-update #content .footer {
+    height: 221px; }
+    #users-update #content .footer .buttons .submit {
+      background: url("../img/setup_save_button.png") no-repeat;
+      cursor: pointer;
+      -webkit-transition: opacity 0.5s ease;
+      -moz-transition: opacity 0.5s ease;
+      -o-transition: opacity 0.5s ease;
+      -ie-transition: opacity 0.5s ease;
+      transition: opacity 0.5s ease;
+      width: 211px;
+      height: 70px;
+      margin: 0 auto; }
+      @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+        #users-update #content .footer .buttons .submit {
+          background: url("../img/setup_save_button_2x.png") no-repeat; } }
+      #users-update #content .footer .buttons .submit:hover {
+        filter: alpha(opacity=70);
+        /*IE*/
+        opacity: 0.7;
+        -webkit-transition: opacity 0.5s ease;
+        -moz-transition: opacity 0.5s ease;
+        -o-transition: opacity 0.5s ease;
+        -ie-transition: opacity 0.5s ease;
+        transition: opacity 0.5s ease; }
+  #users-update #content #modals {
+    display: none; }
+#users-update #image {
+  background: url(../img/setup_uploader_background.jpg);
+  height: 100%;
+  text-align: center; }
+  #users-update #image.modal {
+    width: auto; }
+  #users-update #image #uploader {
+    margin: 0 auto;
+    padding-top: 210px; }
+  #users-update #image #uploader-queue {
+    margin-top: 25px;
+    background: transparent;
+    color: #eee; }
+    #users-update #image #uploader-queue .uploadify-queue-item {
+      margin: 0 auto;
+      background: none; }
+    #users-update #image #uploader-queue .uploadify-progress-bar {
+      background-color: #fff; }
+#users-update #editor {
+  display: none; }
+  #users-update #editor .image {
+    width: 540px;
+    height: 415px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 70px 10px 10px; }
+    #users-update #editor .image img {
+      max-width: 520px;
+      max-height: 320px; }
+    #users-update #editor .image .jcrop-holder {
+      margin: 0 auto; }
+  #users-update #editor .save, #users-update #editor .reset {
+    height: 25px;
+    cursor: pointer;
+    margin: 0 10px; }
+#users-update .modal {
+  background: url(../img/setup_modal_background.jpg) no-repeat;
+  height: 483px;
+  width: 778px;
+  color: #eee; }
+  #users-update .modal .heading {
+    text-align: center;
+    padding: 40px 0 75px; }
+    #users-update .modal .heading img {
+      height: 26px; }
+  #users-update .modal .text {
+    width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    color: #eee; }
+  #users-update .modal .submit, #users-update .modal .cancel {
+    height: 33px;
+    margin: 0 20px;
+    cursor: pointer; }
+  #users-update .modal .selection {
+    background: url(../img/modal_track_background.png) no-repeat;
+    width: 477px;
+    height: 76px;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 76px;
+    font-size: 16px; }
+  #users-update .modal .terms {
+    text-align: center;
+    margin-bottom: 20px; }
+    #users-update .modal .terms a {
+      text-decoration: underline; }
+  #users-update .modal .error {
+    color: #f00;
+    text-align: center;
+    margin: 10px 0 20px; }
+  #users-update .modal .buttons {
+    text-align: center; }

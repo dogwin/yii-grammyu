@@ -1,0 +1,78 @@
+#content {
+    background: #000 url(../img/background_mobile.jpg) no-repeat center top;
+    height: auto;
+
+    .heading {
+        margin: 30px auto 0;
+        background: url(../img/about_heading_mobile.png) no-repeat center top;
+        height: 200px;
+        width: 320px;
+        overflow: hidden;
+
+        .title {
+            display: none;
+        }
+
+        .text {
+            width: 280px;
+            padding: 0;
+            padding-top: 100px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+    }
+    
+    .update {
+        height: 200px;
+        width: 320px;
+        overflow: hidden;
+
+        .title {
+            display: none;
+        }
+
+        .text {
+            width: 280px;
+            padding: 0;
+            padding-top: 100px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+    }
+
+    .steps {
+
+        width: 300px;
+        height: 240px;
+        margin: 0 auto 20px;
+
+        ul {
+
+            list-style: none;
+
+            li {
+                img {
+                    width: auto;
+                }
+            }
+        }
+
+    }
+
+    .description {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .getamplified {
+
+        text-align: center;
+
+        img {
+            width: 256px;
+        }
+    }
+
+}

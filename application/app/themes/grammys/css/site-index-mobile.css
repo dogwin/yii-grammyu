@@ -1,0 +1,9 @@
+#site-index #content {
+  margin-top: 53px;
+  background: url("../img/home_background_mobile.jpg") no-repeat center top; }
+#site-index .masthead {
+  text-align: center; }
+  #site-index .masthead .description {
+    margin-top: 200px; }
+  #site-index .masthead .explore {
+    margin-top: 30px; }

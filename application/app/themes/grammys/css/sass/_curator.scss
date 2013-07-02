@@ -1,0 +1,42 @@
+.curator {
+
+    background-repeat: no-repeat;
+    background-position: center 50px;
+    height: 380px;
+
+
+    .tile {
+        margin: 0 auto;
+        width: 320px;
+        height: 400px;
+        background-position: center top;
+        background-repeat: no-repeat;
+
+
+        .title {
+            text-align: center;
+            padding-top: 310px;
+            
+        }
+
+        .reach {
+
+            margin: 5px auto 0;
+            text-align: center;
+            height: 44px;
+            background: url(../img/curators_reach.png) no-repeat top center;
+
+
+            .count {
+                font-family: AkzidenzGroteskBE-LightCn, "Helvetica Neue", helvetica, Arial, Sans-Serif;
+                text-align: center;
+                color: #FFF;
+                font-size: 20px;
+                padding-top: 23px;
+                letter-spacing:1px;
+
+            }
+
+        }
+    }
+}

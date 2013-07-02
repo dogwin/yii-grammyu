@@ -1,0 +1,61 @@
+
+.steps-points-wrap {
+    width: 1024px;
+    overflow: hidden;
+
+    #slideWrap {
+        margin: 30px auto 0px;
+        width: 234px;
+    }
+
+    #steps{
+        position: relative;
+        text-align: center;
+        width: 825px;
+        margin: 30px auto 40px;
+        height: 299px;
+        background: url("../img/about_steps_background.png") no-repeat;
+
+        .steps-view-port {
+            position: relative;
+            overflow: hidden;
+            width: 798px;
+            height: 273px;
+            left: 12px;
+            top: 12px;
+        }
+
+        .steps-glow {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 212px;
+            height: 273px;
+            z-index: 1;
+            background: url("../img/about_steps_glow.png") no-repeat;
+            display: none;
+        }
+
+        .steps-drag {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 2424px;
+            z-index: 0;
+            background: black;
+        }
+
+        #step1,
+        #step2,
+        #step3 {
+            float: left;
+            width: 808px;
+            height: 273px;
+            padding-right: 10px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

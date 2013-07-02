@@ -1,0 +1,28 @@
+#site-terms {
+
+    #content {
+        background: #000;
+    }
+
+    .heading{
+        background: url('../img/terms_background.jpg') no-repeat center top;
+        height: 273px;
+        text-align: center;
+
+        .title {
+            padding: 150px 0 20px;
+        }
+
+    }
+
+    .text {
+        margin: 20px auto;
+        width: 800px;
+        color: #ddd;
+        font-size: 14px;
+        line-height: 14px;
+        font-family: "Palatino Linotype", Georgia, "Times New Roman", serif;
+        font-style: normal;
+    }
+
+}

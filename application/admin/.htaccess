@@ -1,0 +1,14 @@
+RewriteEngine On
+Header set Access-Control-Allow-Origin "*"
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# otherwise forward it to index.php
+RewriteRule . index.php
+
+SetEnv DB_HOST localhost
+SetEnv DB_NAME grammyu
+SetEnv DB_USER root
+SetEnv DB_PASS mysly0725
+

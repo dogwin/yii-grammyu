@@ -1,0 +1,140 @@
+.player .mejs-container {
+  width: 300px;
+  background: none; }
+  .player .mejs-container .mejs-controls {
+    background: none;
+    bottom: auto; }
+    .player .mejs-container .mejs-controls .mejs-playpause-button {
+      width: 58px;
+      height: 60px; }
+      .player .mejs-container .mejs-controls .mejs-playpause-button button {
+        width: 40px;
+        height: 40px;
+        margin: 12px 0px 12px 14px;
+        background: url(../img/player_controls.png);
+        outline-style: none; }
+      .player .mejs-container .mejs-controls .mejs-playpause-button.mejs-play:hover button {
+        background-position: 0 40px; }
+      .player .mejs-container .mejs-controls .mejs-playpause-button.mejs-pause button {
+        background-position: 40px 0px; }
+      .player .mejs-container .mejs-controls .mejs-playpause-button.mejs-pause:hover button {
+        background-position: 40px 40px; }
+    .player .mejs-container .mejs-controls .mejs-time-rail {
+      height: 53px;
+      padding-top: 1px; }
+      .player .mejs-container .mejs-controls .mejs-time-rail .mejs-time-loaded {
+        background: none; }
+      .player .mejs-container .mejs-controls .mejs-time-rail .mejs-time-total {
+        height: 53px;
+        background: none;
+        border-radius: 0;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0; }
+        .player .mejs-container .mejs-controls .mejs-time-rail .mejs-time-total .mejs-time-loaded, .player .mejs-container .mejs-controls .mejs-time-rail .mejs-time-total .mejs-time-current {
+          height: 53px;
+          border-radius: 0;
+          -moz-border-radius: 0;
+          -webkit-border-radius: 0; }
+
+#content {
+  padding-top: 90px;
+  background: black url(../img/background_mobile.jpg) no-repeat center top; }
+  #content .heading .header {
+    text-align: center; }
+  #content .heading .description {
+    text-align: center; }
+  #content .titlePlayerBackground {
+    margin: 0;
+    width: 300px;
+    height: 120px;
+    top: 0px;
+    left: 0px;
+    background: url(../img/artistCard_mobile.jpg) no-repeat center top; }
+  #content .trackTitle {
+    margin: 0;
+    width: 300px;
+    left: 0px; }
+  #content .mobilePlayer {
+    margin: 0 auto;
+    width: 300px;
+    left: 20px; }
+  #content .player {
+    margin: 0 auto;
+    width: 300px; }
+  #content h1, #content .genre {
+    text-align: center;
+    color: #fff;
+    font-size: 26px;
+    margin-bottom: 5px; }
+  #content h1 {
+    font-family: AkzidenzGroteskBE-Cn;
+    font-size: 50px;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; }
+  #content h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 14px; }
+  #content .genre {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px; }
+  #content .amplify img {
+    width: 300px;
+    margin-bottom: 5px; }
+  #content .buttons {
+    text-align: center; }
+  #content .image {
+    width: 300px;
+    text-align: center;
+    margin-bottom: -2px; }
+  #content .bio {
+    margin: 0px auto; }
+    #content .bio p {
+      width: 280px;
+      margin: 0px auto;
+      font-size: 12px;
+      text-align: center; }
+  #content .info {
+    width: 280px;
+    margin: 0px auto;
+    text-align: left; }
+    #content .info ul {
+      list-style: none; }
+      #content .info ul li {
+        margin: 10px 0 0 40px; }
+        #content .info ul li img {
+          vertical-align: middle;
+          margin: 0 10px 0 0; }
+  #content .badgeLeft {
+    position: absolute;
+    top: 38px;
+    left: 40px;
+    width: 119px;
+    height: 107px;
+    color: #FFF;
+    z-index: 20; }
+  #content .badgeRight {
+    position: absolute;
+    top: 378px;
+    left: 735px;
+    width: 119px;
+    height: 107px;
+    color: #FFF;
+    z-index: 20; }
+  #content .boxes {
+    font-family: AkzidenzGroteskBE-Cn; }
+    #content .boxes .box {
+      margin: 0 auto 20px;
+      width: 268px;
+      height: 224px;
+      background: url(../img/setup_tracks_mobile.png) no-repeat;
+      color: #fff;
+      padding: 80px 20px 0;
+      text-align: center;
+      text-transform: uppercase; }
+      #content .boxes .box .numbers {
+        font-size: 80px;
+        line-height: 80px; }
+      #content .boxes .box .countdown {
+        font-size: 40px;
+        line-height: 40px; }

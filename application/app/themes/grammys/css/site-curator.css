@@ -1,0 +1,254 @@
+.curator {
+  background-repeat: no-repeat;
+  background-position: center 50px;
+  height: 380px; }
+  .curator .tile {
+    margin: 0 auto;
+    width: 320px;
+    height: 400px;
+    background-position: center top;
+    background-repeat: no-repeat; }
+    .curator .tile .title {
+      text-align: center;
+      padding-top: 310px; }
+    .curator .tile .reach {
+      margin: 5px auto 0;
+      text-align: center;
+      height: 44px;
+      background: url(../img/curators_reach.png) no-repeat top center; }
+      .curator .tile .reach .count {
+        font-family: AkzidenzGroteskBE-LightCn, "Helvetica Neue", helvetica, Arial, Sans-Serif;
+        text-align: center;
+        color: #FFF;
+        font-size: 20px;
+        padding-top: 23px;
+        letter-spacing: 1px; }
+
+@media only screen and (max-width: 960px) {
+  .artist {
+    width: 50% !important; } }
+.artist .wrapper {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 0;
+  width: 300px;
+  height: 465px;
+  border: solid 1px #222222;
+  position: relative;
+  text-align: center;
+  -webkit-box-shadow: 3px 24px 50px black;
+  -moz-box-shadow: 3px 24px 50px black;
+  -ms-box-shadow: 3px 24px 50px black;
+  box-shadow: 3px 24px 50px black;
+  background: url("../img/artistCard.jpg") no-repeat center top; }
+.artist .image {
+  height: 200px;
+  overflow: hidden; }
+  .artist .image img {
+    width: 300px;
+    height: 200px; }
+.artist .username {
+  position: absolute;
+  top: 250px;
+  left: 0px;
+  width: 298px;
+  height: 30px; }
+  .artist .username h2 {
+    color: #FFF;
+    margin: 0px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 12px;
+    font-family: AkzidenzGroteskBE-Cn; }
+.artist .track {
+  position: absolute;
+  top: 270px;
+  left: 0px;
+  width: 298px;
+  height: 30px; }
+  .artist .track .title {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    line-height: 18px;
+    font-family: AkzidenzGroteskBE-Cn;
+    font-style: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+.artist .genre {
+  position: absolute;
+  top: 433px;
+  left: 0px;
+  width: 298px;
+  height: 30px;
+  color: #FFF;
+  text-align: center;
+  font-size: 11px;
+  line-height: 0;
+  font-family: HelveticaNeueLTStd-Roman, Helvetica, Arial;
+  font-style: normal; }
+.artist .badgeLeft {
+  position: absolute;
+  top: -26px;
+  left: 0px;
+  width: 119px;
+  height: 107px;
+  color: #FFF;
+  z-index: 20; }
+.artist .badgeRight {
+  position: absolute;
+  top: -31px;
+  left: 160px;
+  width: 143px;
+  height: 140px;
+  color: #FFF;
+  z-index: 20; }
+.artist .player {
+  position: absolute;
+  top: 295px;
+  left: 0px;
+  height: 59px; }
+.artist .points {
+  margin: 10px 0 0 0;
+  color: #FFF;
+  text-align: center; }
+  .artist .points ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center; }
+    .artist .points ul li {
+      display: inline;
+      font-size: 14px;
+      color: #a7a7a7;
+      font-family: HelveticaNeueLTStd-Roman, Helvetica, Arial;
+      font-style: normal; }
+      .artist .points ul li .count {
+        font-size: 14px;
+        color: #FFF; }
+.artist .share {
+  position: absolute;
+  top: 380px;
+  left: 0px;
+  width: 298px; }
+  .artist .share img {
+    margin-bottom: 5px; }
+  .artist .share a {
+    -webkit-transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+    -ie-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease; }
+    .artist .share a:hover {
+      filter: alpha(opacity=60);
+      opacity: 0.6;
+      -webkit-transition: opacity 0.5s ease;
+      -moz-transition: opacity 0.5s ease;
+      -o-transition: opacity 0.5s ease;
+      -ie-transition: opacity 0.5s ease;
+      transition: opacity 0.5s ease; }
+.artist .location {
+  position: absolute;
+  top: 440px;
+  left: 0px;
+  width: 298px;
+  height: 18px; }
+  .artist .location img {
+    vertical-align: middle; }
+  .artist .location .city {
+    margin: 0 0 0 4px;
+    font-size: 11px;
+    color: #b5b5b5;
+    font-family: HelveticaNeueLTStd-Roman, Helvetica, Arial;
+    font-style: normal; }
+
+#site-curator #background {
+  background: url("../img/curator_background.jpg") no-repeat center 0px; }
+#site-curator #content {
+  min-height: 1800px; }
+#site-curator .curator-single {
+  width: 1024px;
+  height: 591px;
+  overflow: hidden; }
+#site-curator .curator-single.rza {
+  background: url("../img/curators/rza.jpg") no-repeat center top; }
+#site-curator .curator-single.linkin-park {
+  background: url("../img/curators/linkin-park.jpg") no-repeat center top; }
+#site-curator .curator-single.ozzy {
+  background: url("../img/curators/ozzy.jpg") no-repeat center top; }
+#site-curator .curator-single.kelly-clarkson {
+  background: url("../img/curators/kelly-clarkson.jpg") no-repeat center top; }
+#site-curator .curator-single.jim-james {
+  background: url("../img/curators/jim-james.jpg") no-repeat center top; }
+#site-curator .curator-single.kaskade {
+  background: url("../img/curators/kaskade.jpg") no-repeat center top; }
+#site-curator .curator-single.snoop-lion {
+  background: url("../img/curators/snoop.jpg") no-repeat center top; }
+#site-curator .reach {
+  width: 1024px;
+  height: 74px;
+  overflow: hidden; }
+  #site-curator .reach ul {
+    margin: 17px auto 0;
+    padding: 0;
+    font-family: AkzidenzGroteskBE-Cn;
+    text-align: center;
+    width: 750px; }
+  #site-curator .reach li {
+    float: left;
+    list-style: none;
+    color: #999;
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 230px;
+    padding-top: 6px; }
+  #site-curator .reach li.reach {
+    margin-right: 20px;
+    text-align: right; }
+  #site-curator .reach li.stat {
+    font-size: 30px;
+    padding: 0;
+    text-align: center;
+    margin: 0 10px;
+    letter-spacing: 1px; }
+  #site-curator .reach li.date {
+    text-align: left;
+    margin-left: 20px; }
+#site-curator .description {
+  text-align: center;
+  font-family: AkzidenzGroteskBE-Cn;
+  padding: 41px 0;
+  height: 160px;
+  overflow: hidden;
+  width: 920px;
+  margin: 0 auto;
+  position: relative; }
+  #site-curator .description p {
+    font-size: 25px;
+    line-height: 26px;
+    color: #fff;
+    margin: 0;
+    padding: 0; }
+  #site-curator .description .gradient {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 122px;
+    background: url("../img/curator_desc_gradient.png") repeat-x;
+    pointer-events: none; }
+#site-curator .curator-title {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 25px 0 0;
+  height: 89px; }
+  #site-curator .curator-title .amped-by {
+    font-size: 15px; }
+  #site-curator .curator-title .curator-name {
+    font-size: 22px;
+    line-height: 28px; }
+#site-curator #artists {
+  margin: 40px 0 0 11px; }

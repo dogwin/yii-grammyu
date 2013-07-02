@@ -1,0 +1,232 @@
+2013/07/02 15:52:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /Users/darren/Sites/git/grammyu/application/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/darren/Sites/git/grammyu/application/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/02 15:52:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /Users/darren/Sites/git/grammyu/application/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/darren/Sites/git/grammyu/application/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/02 15:52:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /Users/darren/Sites/git/grammyu/application/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/darren/Sites/git/grammyu/application/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/02 15:52:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /Users/darren/Sites/git/grammyu/application/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/darren/Sites/git/grammyu/application/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/02 15:52:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /Users/darren/Sites/git/grammyu/application/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/darren/Sites/git/grammyu/application/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/02 15:52:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /Users/darren/Sites/git/grammyu/application/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/darren/Sites/git/grammyu/application/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/02 15:52:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /Users/darren/Sites/git/grammyu/application/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/darren/Sites/git/grammyu/application/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/02 15:52:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /Users/darren/Sites/git/grammyu/application/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/darren/Sites/git/grammyu/application/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/02 15:52:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /Users/darren/Sites/git/grammyu/application/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/darren/Sites/git/grammyu/application/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/02 15:52:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /Users/darren/Sites/git/grammyu/application/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/darren/Sites/git/grammyu/application/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/02 15:52:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /Users/darren/Sites/git/grammyu/application/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/darren/Sites/git/grammyu/application/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/02 15:52:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /Users/darren/Sites/git/grammyu/application/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/darren/Sites/git/grammyu/application/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/02 15:53:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /Users/darren/Sites/git/grammyu/application/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/darren/Sites/git/grammyu/application/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/02 15:53:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /Users/darren/Sites/git/grammyu/application/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/darren/Sites/git/grammyu/application/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/02 15:53:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /Users/darren/Sites/git/grammyu/application/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/darren/Sites/git/grammyu/application/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/02 15:53:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /Users/darren/Sites/git/grammyu/application/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/darren/Sites/git/grammyu/application/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/02 15:53:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /Users/darren/Sites/git/grammyu/application/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/darren/Sites/git/grammyu/application/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/02 15:53:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /Users/darren/Sites/git/grammyu/application/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/darren/Sites/git/grammyu/application/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/02 16:19:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /Users/darren/Sites/git/grammyu/application/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/darren/Sites/git/grammyu/application/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/02 16:19:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /Users/darren/Sites/git/grammyu/application/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/darren/Sites/git/grammyu/application/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/02 16:19:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /Users/darren/Sites/git/grammyu/application/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/darren/Sites/git/grammyu/application/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/02 16:19:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /Users/darren/Sites/git/grammyu/application/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/darren/Sites/git/grammyu/application/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/02 16:19:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /Users/darren/Sites/git/grammyu/application/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/darren/Sites/git/grammyu/application/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/02 16:19:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /Users/darren/Sites/git/grammyu/application/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/darren/Sites/git/grammyu/application/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/02 16:19:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /Users/darren/Sites/git/grammyu/application/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/darren/Sites/git/grammyu/application/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/02 16:19:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /Users/darren/Sites/git/grammyu/application/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/darren/Sites/git/grammyu/application/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/02 16:19:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /Users/darren/Sites/git/grammyu/application/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/darren/Sites/git/grammyu/application/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/02 16:19:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /Users/darren/Sites/git/grammyu/application/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/darren/Sites/git/grammyu/application/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/02 17:43:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Users/darren/Sites/git/grammyu/application/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /Users/darren/Sites/git/grammyu/application/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/darren/Sites/git/grammyu/application/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---

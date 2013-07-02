@@ -1,0 +1,83 @@
+@import "_mixins";
+@import "_curator";
+
+#site-curators {
+
+    #background {
+        background: url("../img/curators_background.jpg") no-repeat center 0px;
+    }
+
+    #content {
+        min-height: 1200px;
+    }
+
+    .heading {
+        height: 300px;
+        text-align: center;
+
+        .title {
+            padding: 57px 0 0;
+        }
+
+        .text {
+            margin: 0px auto;
+            margin-top: -4px;
+            width: 450px;
+            color: #aaa;
+            font-size: 14px;
+            line-height: 14px;
+            font-style: normal;
+        }
+
+    }
+
+	.totalreach{
+		margin: 74px auto 0px;
+		color: #999;
+        height: 42px;
+        position: relative;
+        font-family: "AkzidenzGroteskBE-Cn", "Helvetica Neue", helvetica, Arial, Sans-Serif;
+
+        div {
+            position: absolute;
+            top: 14px;
+        }
+
+        .socialreachtitle {
+            left: 180px;
+            text-align: right;
+            width: 200px;
+            font-size: 20px;
+
+        }
+
+        .numbers {
+            left: 400px;
+            text-align: center;
+            top: 15px;
+            font-size: 30px;
+            width: 230px;
+            color: #ddd;
+            letter-spacing:1px;
+
+
+        }
+
+        .date {
+            left: 650px;
+            text-align: left;
+            width: 200px;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+
+    }
+    
+    .snoop-lion{
+    	width: 100%;
+    }
+    
+    
+
+   
+}
